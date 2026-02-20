@@ -27,6 +27,23 @@
     --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
   }
 
+  [data-theme="dark"] {
+    --bg: #141210;
+    --surface: #1E1C1A;
+    --border: #2E2B28;
+    --text: #F0EDE8;
+    --text-muted: #7A756F;
+    --accent: #5A9E35;
+    --accent-light: #1E2E14;
+    --accent2: #E07840;
+    --irreg: #E07840;
+    --irreg-bg: #2A1C10;
+    --a1: #5A9E35;
+    --a2: #4A8AB0;
+    --a2-bg: #0E1E2A;
+    --shadow: 0 2px 16px rgba(0,0,0,0.3);
+  }
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
@@ -43,44 +60,48 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 32px;
+    padding: 12px 16px;
     background: var(--surface);
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
     z-index: 100;
+    gap: 8px;
   }
   .nav-logo {
     font-family: 'DM Serif Display', serif;
-    font-size: 22px;
+    font-size: 20px;
     color: var(--accent);
     letter-spacing: -0.5px;
+    flex-shrink: 0;
   }
   .nav-tabs {
     display: flex;
-    gap: 4px;
+    gap: 2px;
     background: var(--bg);
     border-radius: 10px;
-    padding: 4px;
+    padding: 3px;
+    flex-shrink: 0;
   }
   .nav-tab {
-    padding: 7px 18px;
+    padding: 6px 12px;
     border-radius: 7px;
     border: none;
     background: transparent;
     font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: var(--text-muted);
     cursor: pointer;
     transition: var(--transition);
+    white-space: nowrap;
   }
   .nav-tab.active {
     background: var(--surface);
     color: var(--text);
     box-shadow: var(--shadow);
   }
-  .nav-right { width: 120px; display: flex; justify-content: flex-end; }
+  .nav-right { display: flex; justify-content: flex-end; flex-shrink: 0; }
 
   /* PAGES */
   .page { display: none; flex: 1; }
@@ -89,8 +110,8 @@
   /* ======= PRACTICE PAGE ======= */
   #page-practice {
     align-items: center;
-    padding: 40px 24px;
-    gap: 24px;
+    padding: 24px 16px;
+    gap: 20px;
   }
 
   /* Category bar */
@@ -312,7 +333,7 @@
 
   /* ======= REFERENCE PAGE ======= */
   #page-reference {
-    padding: 40px 32px;
+    padding: 24px 16px;
     align-items: center;
   }
   .ref-container {
@@ -320,16 +341,16 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 24px;
   }
   .ref-header {
     font-family: 'DM Serif Display', serif;
-    font-size: 30px;
+    font-size: 26px;
     color: var(--text);
     letter-spacing: -0.5px;
   }
   .ref-subtitle {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--text-muted);
     margin-top: 4px;
   }
@@ -341,45 +362,58 @@
     overflow: hidden;
   }
   .tense-block-header {
-    padding: 18px 24px;
+    padding: 14px 16px;
     border-bottom: 1px solid var(--border);
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
+    flex-wrap: wrap;
   }
   .tense-name {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
   }
   .tense-level {
     font-size: 11px;
     font-weight: 700;
     padding: 3px 8px;
     border-radius: 5px;
+    flex-shrink: 0;
   }
   .tense-block-body {
-    padding: 20px 24px;
+    padding: 16px;
   }
   .tense-desc {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--text-muted);
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     line-height: 1.6;
   }
 
   .endings-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin-bottom: 16px;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  @media (max-width: 600px) {
+    .endings-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 380px) {
+    .endings-grid {
+      grid-template-columns: 1fr;
+    }
   }
   .ending-group {
     background: var(--bg);
     border-radius: 10px;
-    padding: 14px;
+    padding: 12px;
+    min-width: 0;
   }
   .ending-group-title {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -391,26 +425,29 @@
     justify-content: space-between;
     align-items: center;
     padding: 3px 0;
-    font-size: 13px;
+    font-size: 12px;
+    gap: 4px;
   }
-  .ending-pron { color: var(--text-muted); }
+  .ending-pron { color: var(--text-muted); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .ending-end {
     font-weight: 600;
     font-family: 'DM Serif Display', serif;
-    font-size: 15px;
+    font-size: 14px;
     color: var(--accent);
+    flex-shrink: 0;
   }
   .ending-end.irreg-ending { color: var(--irreg); }
 
   .example-verb {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--text-muted);
+    line-height: 1.7;
   }
   .example-verb span { color: var(--text); font-weight: 500; }
 
   /* ======= SETTINGS PAGE ======= */
   #page-settings {
-    padding: 40px 32px;
+    padding: 24px 16px;
     align-items: center;
   }
   .settings-container {
@@ -715,6 +752,29 @@
     </div>
   </div>
 
+  <div class="settings-section">
+    <div class="settings-section-title" data-i18n="settings_appearance">外观</div>
+    <div class="settings-row">
+      <div>
+        <div class="settings-row-label" data-i18n="dark_mode">深色模式</div>
+        <div class="settings-row-sub" data-i18n="dark_mode_sub">护眼，适合夜间学习</div>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="toggleDarkMode">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="settings-section">
+    <div class="settings-section-title" data-i18n="settings_progress">学习进度</div>
+    <div id="progressStats" style="padding:16px 20px; display:flex; flex-direction:column; gap:12px;">
+    </div>
+    <div style="padding:0 20px 16px">
+      <button onclick="resetProgress()" style="font-size:13px; color:var(--irreg); background:none; border:1px solid var(--irreg); border-radius:8px; padding:8px 16px; cursor:pointer; font-family:'DM Sans',sans-serif;" data-i18n="reset_progress">重置进度</button>
+    </div>
+  </div>
+
 </div>
 </div>
 
@@ -737,641 +797,7 @@ const CATEGORIES = ['全部','日常动词','饮食','购物','职业','爱好',
 
 // Each verb: { inf, en, zh, cat, level, forms: { presente, perfecto, indefinido, futuro }, irregular: { presente: [indices], ... } }
 // irregular: array of pronoun indices that are irregular (0=yo,1=tú,2=él,3=nosotros,4=vosotros,5=ellos)
-const VERBS = [
-  // ---- 日常动词 ----
-  {inf:'ser', en:'to be (permanent)', zh:'是（永久）', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['soy','eres','es','somos','sois','son'],
-      perfecto:['he sido','has sido','ha sido','hemos sido','habéis sido','han sido'],
-      indefinido:['fui','fuiste','fue','fuimos','fuisteis','fueron'],
-      futuro:['voy a ser','vas a ser','va a ser','vamos a ser','vais a ser','van a ser']
-    }, irregular:{presente:[0,1,2,3,4,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'estar', en:'to be (state/location)', zh:'是/在（临时）', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['estoy','estás','está','estamos','estáis','están'],
-      perfecto:['he estado','has estado','ha estado','hemos estado','habéis estado','han estado'],
-      indefinido:['estuve','estuviste','estuvo','estuvimos','estuvisteis','estuvieron'],
-      futuro:['voy a estar','vas a estar','va a estar','vamos a estar','vais a estar','van a estar']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'tener', en:'to have', zh:'有/拥有', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['tengo','tienes','tiene','tenemos','tenéis','tienen'],
-      perfecto:['he tenido','has tenido','ha tenido','hemos tenido','habéis tenido','han tenido'],
-      indefinido:['tuve','tuviste','tuvo','tuvimos','tuvisteis','tuvieron'],
-      futuro:['voy a tener','vas a tener','va a tener','vamos a tener','vais a tener','van a tener']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'hacer', en:'to do / to make', zh:'做/制作', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['hago','haces','hace','hacemos','hacéis','hacen'],
-      perfecto:['he hecho','has hecho','ha hecho','hemos hecho','habéis hecho','han hecho'],
-      indefinido:['hice','hiciste','hizo','hicimos','hicisteis','hicieron'],
-      futuro:['voy a hacer','vas a hacer','va a hacer','vamos a hacer','vais a hacer','van a hacer']
-    }, irregular:{presente:[0], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'ir', en:'to go', zh:'去', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['voy','vas','va','vamos','vais','van'],
-      perfecto:['he ido','has ido','ha ido','hemos ido','habéis ido','han ido'],
-      indefinido:['fui','fuiste','fue','fuimos','fuisteis','fueron'],
-      futuro:['voy a ir','vas a ir','va a ir','vamos a ir','vais a ir','van a ir']
-    }, irregular:{presente:[0,1,2,3,4,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'venir', en:'to come', zh:'来', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['vengo','vienes','viene','venimos','venís','vienen'],
-      perfecto:['he venido','has venido','ha venido','hemos venido','habéis venido','han venido'],
-      indefinido:['vine','viniste','vino','vinimos','vinisteis','vinieron'],
-      futuro:['voy a venir','vas a venir','va a venir','vamos a venir','vais a venir','van a venir']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'querer', en:'to want / to love', zh:'想要/爱', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['quiero','quieres','quiere','queremos','queréis','quieren'],
-      perfecto:['he querido','has querido','ha querido','hemos querido','habéis querido','han querido'],
-      indefinido:['quise','quisiste','quiso','quisimos','quisisteis','quisieron'],
-      futuro:['voy a querer','vas a querer','va a querer','vamos a querer','vais a querer','van a querer']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'poder', en:'can / to be able to', zh:'能/可以', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['puedo','puedes','puede','podemos','podéis','pueden'],
-      perfecto:['he podido','has podido','ha podido','hemos podido','habéis podido','han podido'],
-      indefinido:['pude','pudiste','pudo','pudimos','pudisteis','pudieron'],
-      futuro:['voy a poder','vas a poder','va a poder','vamos a poder','vais a poder','van a poder']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'saber', en:'to know (facts)', zh:'知道/会', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['sé','sabes','sabe','sabemos','sabéis','saben'],
-      perfecto:['he sabido','has sabido','ha sabido','hemos sabido','habéis sabido','han sabido'],
-      indefinido:['supe','supiste','supo','supimos','supisteis','supieron'],
-      futuro:['voy a saber','vas a saber','va a saber','vamos a saber','vais a saber','van a saber']
-    }, irregular:{presente:[0], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'decir', en:'to say / to tell', zh:'说/告诉', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['digo','dices','dice','decimos','decís','dicen'],
-      perfecto:['he dicho','has dicho','ha dicho','hemos dicho','habéis dicho','han dicho'],
-      indefinido:['dije','dijiste','dijo','dijimos','dijisteis','dijeron'],
-      futuro:['voy a decir','vas a decir','va a decir','vamos a decir','vais a decir','van a decir']
-    }, irregular:{presente:[0,2,5], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'dar', en:'to give', zh:'给', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['doy','das','da','damos','dais','dan'],
-      perfecto:['he dado','has dado','ha dado','hemos dado','habéis dado','han dado'],
-      indefinido:['di','diste','dio','dimos','disteis','dieron'],
-      futuro:['voy a dar','vas a dar','va a dar','vamos a dar','vais a dar','van a dar']
-    }, irregular:{presente:[0], indefinido:[0,2]}},
-
-  {inf:'poner', en:'to put / to place', zh:'放/放置', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['pongo','pones','pone','ponemos','ponéis','ponen'],
-      perfecto:['he puesto','has puesto','ha puesto','hemos puesto','habéis puesto','han puesto'],
-      indefinido:['puse','pusiste','puso','pusimos','pusisteis','pusieron'],
-      futuro:['voy a poner','vas a poner','va a poner','vamos a poner','vais a poner','van a poner']
-    }, irregular:{presente:[0], indefinido:[0,1,2,3,4,5]}},
-
-  {inf:'ver', en:'to see / to watch', zh:'看/看见', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['veo','ves','ve','vemos','veis','ven'],
-      perfecto:['he visto','has visto','ha visto','hemos visto','habéis visto','han visto'],
-      indefinido:['vi','viste','vio','vimos','visteis','vieron'],
-      futuro:['voy a ver','vas a ver','va a ver','vamos a ver','vais a ver','van a ver']
-    }, irregular:{presente:[0], indefinido:[0,2]}},
-
-  {inf:'llamarse', en:'to be called / named', zh:'叫做', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['me llamo','te llamas','se llama','nos llamamos','os llamáis','se llaman'],
-      perfecto:['me he llamado','te has llamado','se ha llamado','nos hemos llamado','os habéis llamado','se han llamado'],
-      indefinido:['me llamé','te llamaste','se llamó','nos llamamos','os llamasteis','se llamaron'],
-      futuro:['me voy a llamar','te vas a llamar','se va a llamar','nos vamos a llamar','os vais a llamar','se van a llamar']
-    }, irregular:{}},
-
-  {inf:'gustar', en:'to like', zh:'喜欢', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['me gusta','te gusta','le gusta','nos gusta','os gusta','les gusta'],
-      perfecto:['me ha gustado','te ha gustado','le ha gustado','nos ha gustado','os ha gustado','les ha gustado'],
-      indefinido:['me gustó','te gustó','le gustó','nos gustó','os gustó','les gustó'],
-      futuro:['me va a gustar','te va a gustar','le va a gustar','nos va a gustar','os va a gustar','les va a gustar']
-    }, irregular:{}},
-
-  {inf:'vivir', en:'to live', zh:'住/生活', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['vivo','vives','vive','vivimos','vivís','viven'],
-      perfecto:['he vivido','has vivido','ha vivido','hemos vivido','habéis vivido','han vivido'],
-      indefinido:['viví','viviste','vivió','vivimos','vivisteis','vivieron'],
-      futuro:['voy a vivir','vas a vivir','va a vivir','vamos a vivir','vais a vivir','van a vivir']
-    }, irregular:{}},
-
-  // ---- 饮食 ----
-  {inf:'comer', en:'to eat', zh:'吃', cat:'饮食', level:'A1',
-    forms:{
-      presente:['como','comes','come','comemos','coméis','comen'],
-      perfecto:['he comido','has comido','ha comido','hemos comido','habéis comido','han comido'],
-      indefinido:['comí','comiste','comió','comimos','comisteis','comieron'],
-      futuro:['voy a comer','vas a comer','va a comer','vamos a comer','vais a comer','van a comer']
-    }, irregular:{}},
-
-  {inf:'beber', en:'to drink', zh:'喝', cat:'饮食', level:'A1',
-    forms:{
-      presente:['bebo','bebes','bebe','bebemos','bebéis','beben'],
-      perfecto:['he bebido','has bebido','ha bebido','hemos bebido','habéis bebido','han bebido'],
-      indefinido:['bebí','bebiste','bebió','bebimos','bebisteis','bebieron'],
-      futuro:['voy a beber','vas a beber','va a beber','vamos a beber','vais a beber','van a beber']
-    }, irregular:{}},
-
-  {inf:'cocinar', en:'to cook', zh:'做饭', cat:'饮食', level:'A1',
-    forms:{
-      presente:['cocino','cocinas','cocina','cocinamos','cocináis','cocinan'],
-      perfecto:['he cocinado','has cocinado','ha cocinado','hemos cocinado','habéis cocinado','han cocinado'],
-      indefinido:['cociné','cocinaste','cocinó','cocinamos','cocinasteis','cocinaron'],
-      futuro:['voy a cocinar','vas a cocinar','va a cocinar','vamos a cocinar','vais a cocinar','van a cocinar']
-    }, irregular:{}},
-
-  {inf:'pedir', en:'to order / to ask for', zh:'点餐/要求', cat:'饮食', level:'A1',
-    forms:{
-      presente:['pido','pides','pide','pedimos','pedís','piden'],
-      perfecto:['he pedido','has pedido','ha pedido','hemos pedido','habéis pedido','han pedido'],
-      indefinido:['pedí','pediste','pidió','pedimos','pedisteis','pidieron'],
-      futuro:['voy a pedir','vas a pedir','va a pedir','vamos a pedir','vais a pedir','van a pedir']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[2,5]}},
-
-  {inf:'desayunar', en:'to have breakfast', zh:'吃早餐', cat:'饮食', level:'A1',
-    forms:{
-      presente:['desayuno','desayunas','desayuna','desayunamos','desayunáis','desayunan'],
-      perfecto:['he desayunado','has desayunado','ha desayunado','hemos desayunado','habéis desayunado','han desayunado'],
-      indefinido:['desayuné','desayunaste','desayunó','desayunamos','desayunasteis','desayunaron'],
-      futuro:['voy a desayunar','vas a desayunar','va a desayunar','vamos a desayunar','vais a desayunar','van a desayunar']
-    }, irregular:{}},
-
-  {inf:'cenar', en:'to have dinner', zh:'吃晚饭', cat:'饮食', level:'A1',
-    forms:{
-      presente:['ceno','cenas','cena','cenamos','cenáis','cenan'],
-      perfecto:['he cenado','has cenado','ha cenado','hemos cenado','habéis cenado','han cenado'],
-      indefinido:['cené','cenaste','cenó','cenamos','cenasteis','cenaron'],
-      futuro:['voy a cenar','vas a cenar','va a cenar','vamos a cenar','vais a cenar','van a cenar']
-    }, irregular:{}},
-
-  // ---- 购物 ----
-  {inf:'comprar', en:'to buy', zh:'买', cat:'购物', level:'A1',
-    forms:{
-      presente:['compro','compras','compra','compramos','compráis','compran'],
-      perfecto:['he comprado','has comprado','ha comprado','hemos comprado','habéis comprado','han comprado'],
-      indefinido:['compré','compraste','compró','compramos','comprasteis','compraron'],
-      futuro:['voy a comprar','vas a comprar','va a comprar','vamos a comprar','vais a comprar','van a comprar']
-    }, irregular:{}},
-
-  {inf:'pagar', en:'to pay', zh:'付钱', cat:'购物', level:'A1',
-    forms:{
-      presente:['pago','pagas','paga','pagamos','pagáis','pagan'],
-      perfecto:['he pagado','has pagado','ha pagado','hemos pagado','habéis pagado','han pagado'],
-      indefinido:['pagué','pagaste','pagó','pagamos','pagasteis','pagaron'],
-      futuro:['voy a pagar','vas a pagar','va a pagar','vamos a pagar','vais a pagar','van a pagar']
-    }, irregular:{indefinido:[0]}},
-
-  {inf:'buscar', en:'to look for', zh:'寻找', cat:'购物', level:'A1',
-    forms:{
-      presente:['busco','buscas','busca','buscamos','buscáis','buscan'],
-      perfecto:['he buscado','has buscado','ha buscado','hemos buscado','habéis buscado','han buscado'],
-      indefinido:['busqué','buscaste','buscó','buscamos','buscasteis','buscaron'],
-      futuro:['voy a buscar','vas a buscar','va a buscar','vamos a buscar','vais a buscar','van a buscar']
-    }, irregular:{indefinido:[0]}},
-
-  {inf:'necesitar', en:'to need', zh:'需要', cat:'购物', level:'A1',
-    forms:{
-      presente:['necesito','necesitas','necesita','necesitamos','necesitáis','necesitan'],
-      perfecto:['he necesitado','has necesitado','ha necesitado','hemos necesitado','habéis necesitado','han necesitado'],
-      indefinido:['necesité','necesitaste','necesitó','necesitamos','necesitasteis','necesitaron'],
-      futuro:['voy a necesitar','vas a necesitar','va a necesitar','vamos a necesitar','vais a necesitar','van a necesitar']
-    }, irregular:{}},
-
-  {inf:'llevar', en:'to take / to carry', zh:'带走/拿', cat:'购物', level:'A1',
-    forms:{
-      presente:['llevo','llevas','lleva','llevamos','lleváis','llevan'],
-      perfecto:['he llevado','has llevado','ha llevado','hemos llevado','habéis llevado','han llevado'],
-      indefinido:['llevé','llevaste','llevó','llevamos','llevasteis','llevaron'],
-      futuro:['voy a llevar','vas a llevar','va a llevar','vamos a llevar','vais a llevar','van a llevar']
-    }, irregular:{}},
-
-  // ---- 职业 ----
-  {inf:'trabajar', en:'to work', zh:'工作', cat:'职业', level:'A1',
-    forms:{
-      presente:['trabajo','trabajas','trabaja','trabajamos','trabajáis','trabajan'],
-      perfecto:['he trabajado','has trabajado','ha trabajado','hemos trabajado','habéis trabajado','han trabajado'],
-      indefinido:['trabajé','trabajaste','trabajó','trabajamos','trabajasteis','trabajaron'],
-      futuro:['voy a trabajar','vas a trabajar','va a trabajar','vamos a trabajar','vais a trabajar','van a trabajar']
-    }, irregular:{}},
-
-  {inf:'estudiar', en:'to study', zh:'学习', cat:'职业', level:'A1',
-    forms:{
-      presente:['estudio','estudias','estudia','estudiamos','estudiáis','estudian'],
-      perfecto:['he estudiado','has estudiado','ha estudiado','hemos estudiado','habéis estudiado','han estudiado'],
-      indefinido:['estudié','estudiaste','estudió','estudiamos','estudiasteis','estudiaron'],
-      futuro:['voy a estudiar','vas a estudiar','va a estudiar','vamos a estudiar','vais a estudiar','van a estudiar']
-    }, irregular:{}},
-
-  {inf:'cobrar', en:'to earn / to charge', zh:'收费/赚钱', cat:'职业', level:'A1',
-    forms:{
-      presente:['cobro','cobras','cobra','cobramos','cobráis','cobran'],
-      perfecto:['he cobrado','has cobrado','ha cobrado','hemos cobrado','habéis cobrado','han cobrado'],
-      indefinido:['cobré','cobraste','cobró','cobramos','cobrasteis','cobraron'],
-      futuro:['voy a cobrar','vas a cobrar','va a cobrar','vamos a cobrar','vais a cobrar','van a cobrar']
-    }, irregular:{}},
-
-  {inf:'ayudar', en:'to help', zh:'帮助', cat:'职业', level:'A1',
-    forms:{
-      presente:['ayudo','ayudas','ayuda','ayudamos','ayudáis','ayudan'],
-      perfecto:['he ayudado','has ayudado','ha ayudado','hemos ayudado','habéis ayudado','han ayudado'],
-      indefinido:['ayudé','ayudaste','ayudó','ayudamos','ayudasteis','ayudaron'],
-      futuro:['voy a ayudar','vas a ayudar','va a ayudar','vamos a ayudar','vais a ayudar','van a ayudar']
-    }, irregular:{}},
-
-  // ---- 爱好 ----
-  {inf:'jugar', en:'to play', zh:'玩/打（运动）', cat:'爱好', level:'A1',
-    forms:{
-      presente:['juego','juegas','juega','jugamos','jugáis','juegan'],
-      perfecto:['he jugado','has jugado','ha jugado','hemos jugado','habéis jugado','han jugado'],
-      indefinido:['jugué','jugaste','jugó','jugamos','jugasteis','jugaron'],
-      futuro:['voy a jugar','vas a jugar','va a jugar','vamos a jugar','vais a jugar','van a jugar']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[0]}},
-
-  {inf:'bailar', en:'to dance', zh:'跳舞', cat:'爱好', level:'A1',
-    forms:{
-      presente:['bailo','bailas','baila','bailamos','bailáis','bailan'],
-      perfecto:['he bailado','has bailado','ha bailado','hemos bailado','habéis bailado','han bailado'],
-      indefinido:['bailé','bailaste','bailó','bailamos','bailasteis','bailaron'],
-      futuro:['voy a bailar','vas a bailar','va a bailar','vamos a bailar','vais a bailar','van a bailar']
-    }, irregular:{}},
-
-  {inf:'cantar', en:'to sing', zh:'唱歌', cat:'爱好', level:'A1',
-    forms:{
-      presente:['canto','cantas','canta','cantamos','cantáis','cantan'],
-      perfecto:['he cantado','has cantado','ha cantado','hemos cantado','habéis cantado','han cantado'],
-      indefinido:['canté','cantaste','cantó','cantamos','cantasteis','cantaron'],
-      futuro:['voy a cantar','vas a cantar','va a cantar','vamos a cantar','vais a cantar','van a cantar']
-    }, irregular:{}},
-
-  {inf:'leer', en:'to read', zh:'阅读', cat:'爱好', level:'A1',
-    forms:{
-      presente:['leo','lees','lee','leemos','leéis','leen'],
-      perfecto:['he leído','has leído','ha leído','hemos leído','habéis leído','han leído'],
-      indefinido:['leí','leíste','leyó','leímos','leísteis','leyeron'],
-      futuro:['voy a leer','vas a leer','va a leer','vamos a leer','vais a leer','van a leer']
-    }, irregular:{presente:[0], indefinido:[2,5]}},
-
-  {inf:'escuchar', en:'to listen', zh:'听', cat:'爱好', level:'A1',
-    forms:{
-      presente:['escucho','escuchas','escucha','escuchamos','escucháis','escuchan'],
-      perfecto:['he escuchado','has escuchado','ha escuchado','hemos escuchado','habéis escuchado','han escuchado'],
-      indefinido:['escuché','escuchaste','escuchó','escuchamos','escuchasteis','escucharon'],
-      futuro:['voy a escuchar','vas a escuchar','va a escuchar','vamos a escuchar','vais a escuchar','van a escuchar']
-    }, irregular:{}},
-
-  {inf:'viajar', en:'to travel', zh:'旅行', cat:'爱好', level:'A1',
-    forms:{
-      presente:['viajo','viajas','viaja','viajamos','viajáis','viajan'],
-      perfecto:['he viajado','has viajado','ha viajado','hemos viajado','habéis viajado','han viajado'],
-      indefinido:['viajé','viajaste','viajó','viajamos','viajasteis','viajaron'],
-      futuro:['voy a viajar','vas a viajar','va a viajar','vamos a viajar','vais a viajar','van a viajar']
-    }, irregular:{}},
-
-  {inf:'dormir', en:'to sleep', zh:'睡觉', cat:'爱好', level:'A1',
-    forms:{
-      presente:['duermo','duermes','duerme','dormimos','dormís','duermen'],
-      perfecto:['he dormido','has dormido','ha dormido','hemos dormido','habéis dormido','han dormido'],
-      indefinido:['dormí','dormiste','durmió','dormimos','dormisteis','durmieron'],
-      futuro:['voy a dormir','vas a dormir','va a dormir','vamos a dormir','vais a dormir','van a dormir']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[2,5]}},
-
-  {inf:'descansar', en:'to rest', zh:'休息', cat:'爱好', level:'A1',
-    forms:{
-      presente:['descanso','descansas','descansa','descansamos','descansáis','descansan'],
-      perfecto:['he descansado','has descansado','ha descansado','hemos descansado','habéis descansado','han descansado'],
-      indefinido:['descansé','descansaste','descansó','descansamos','descansasteis','descansaron'],
-      futuro:['voy a descansar','vas a descansar','va a descansar','vamos a descansar','vais a descansar','van a descansar']
-    }, irregular:{}},
-
-  // ---- 身体/健康 ----
-  {inf:'sentirse', en:'to feel', zh:'感觉', cat:'身体/健康', level:'A2',
-    forms:{
-      presente:['me siento','te sientes','se siente','nos sentimos','os sentís','se sienten'],
-      perfecto:['me he sentido','te has sentido','se ha sentido','nos hemos sentido','os habéis sentido','se han sentido'],
-      indefinido:['me sentí','te sentiste','se sintió','nos sentimos','os sentisteis','se sintieron'],
-      futuro:['me voy a sentir','te vas a sentir','se va a sentir','nos vamos a sentir','os vais a sentir','se van a sentir']
-    }, irregular:{presente:[0,1,2,4,5], indefinido:[2,5]}},
-
-  {inf:'doler', en:'to hurt / to ache', zh:'疼/痛', cat:'身体/健康', level:'A1',
-    forms:{
-      presente:['me duele','te duele','le duele','nos duele','os duele','les duele'],
-      perfecto:['me ha dolido','te ha dolido','le ha dolido','nos ha dolido','os ha dolido','les ha dolido'],
-      indefinido:['me dolió','te dolió','le dolió','nos dolió','os dolió','les dolió'],
-      futuro:['me va a doler','te va a doler','le va a doler','nos va a doler','os va a doler','les va a doler']
-    }, irregular:{presente:[0,1,2,3,4,5]}},
-
-  {inf:'encontrarse', en:'to feel / to be located', zh:'感觉/位于', cat:'身体/健康', level:'A2',
-    forms:{
-      presente:['me encuentro','te encuentras','se encuentra','nos encontramos','os encontráis','se encuentran'],
-      perfecto:['me he encontrado','te has encontrado','se ha encontrado','nos hemos encontrado','os habéis encontrado','se han encontrado'],
-      indefinido:['me encontré','te encontraste','se encontró','nos encontramos','os encontrasteis','se encontraron'],
-      futuro:['me voy a encontrar','te vas a encontrar','se va a encontrar','nos vamos a encontrar','os vais a encontrar','se van a encontrar']
-    }, irregular:{presente:[0,1,2,4,5]}},
-
-  // ---- 学习 ----
-  {inf:'hablar', en:'to speak / to talk', zh:'说/讲话', cat:'学习', level:'A1',
-    forms:{
-      presente:['hablo','hablas','habla','hablamos','habláis','hablan'],
-      perfecto:['he hablado','has hablado','ha hablado','hemos hablado','habéis hablado','han hablado'],
-      indefinido:['hablé','hablaste','habló','hablamos','hablasteis','hablaron'],
-      futuro:['voy a hablar','vas a hablar','va a hablar','vamos a hablar','vais a hablar','van a hablar']
-    }, irregular:{}},
-
-  {inf:'escribir', en:'to write', zh:'写', cat:'学习', level:'A1',
-    forms:{
-      presente:['escribo','escribes','escribe','escribimos','escribís','escriben'],
-      perfecto:['he escrito','has escrito','ha escrito','hemos escrito','habéis escrito','han escrito'],
-      indefinido:['escribí','escribiste','escribió','escribimos','escribisteis','escribieron'],
-      futuro:['voy a escribir','vas a escribir','va a escribir','vamos a escribir','vais a escribir','van a escribir']
-    }, irregular:{}},
-
-  {inf:'entender', en:'to understand', zh:'理解/听懂', cat:'学习', level:'A1',
-    forms:{
-      presente:['entiendo','entiendes','entiende','entendemos','entendéis','entienden'],
-      perfecto:['he entendido','has entendido','ha entendido','hemos entendido','habéis entendido','han entendido'],
-      indefinido:['entendí','entendiste','entendió','entendimos','entendisteis','entendieron'],
-      futuro:['voy a entender','vas a entender','va a entender','vamos a entender','vais a entender','van a entender']
-    }, irregular:{presente:[0,1,2,4,5]}},
-
-  {inf:'aprender', en:'to learn', zh:'学/学会', cat:'学习', level:'A1',
-    forms:{
-      presente:['aprendo','aprendes','aprende','aprendemos','aprendéis','aprenden'],
-      perfecto:['he aprendido','has aprendido','ha aprendido','hemos aprendido','habéis aprendido','han aprendido'],
-      indefinido:['aprendí','aprendiste','aprendió','aprendimos','aprendisteis','aprendieron'],
-      futuro:['voy a aprender','vas a aprender','va a aprender','vamos a aprender','vais a aprender','van a aprender']
-    }, irregular:{}},
-
-  {inf:'explicar', en:'to explain', zh:'解释', cat:'学习', level:'A1',
-    forms:{
-      presente:['explico','explicas','explica','explicamos','explicáis','explican'],
-      perfecto:['he explicado','has explicado','ha explicado','hemos explicado','habéis explicado','han explicado'],
-      indefinido:['expliqué','explicaste','explicó','explicamos','explicasteis','explicaron'],
-      futuro:['voy a explicar','vas a explicar','va a explicar','vamos a explicar','vais a explicar','van a explicar']
-    }, irregular:{indefinido:[0]}},
-
-  {inf:'preguntar', en:'to ask', zh:'问/询问', cat:'学习', level:'A1',
-    forms:{
-      presente:['pregunto','preguntas','pregunta','preguntamos','preguntáis','preguntan'],
-      perfecto:['he preguntado','has preguntado','ha preguntado','hemos preguntado','habéis preguntado','han preguntado'],
-      indefinido:['pregunté','preguntaste','preguntó','preguntamos','preguntasteis','preguntaron'],
-      futuro:['voy a preguntar','vas a preguntar','va a preguntar','vamos a preguntar','vais a preguntar','van a preguntar']
-    }, irregular:{}},
-
-  {inf:'recordar', en:'to remember', zh:'记得', cat:'学习', level:'A2',
-    forms:{
-      presente:['recuerdo','recuerdas','recuerda','recordamos','recordáis','recuerdan'],
-      perfecto:['he recordado','has recordado','ha recordado','hemos recordado','habéis recordado','han recordado'],
-      indefinido:['recordé','recordaste','recordó','recordamos','recordasteis','recordaron'],
-      futuro:['voy a recordar','vas a recordar','va a recordar','vamos a recordar','vais a recordar','van a recordar']
-    }, irregular:{presente:[0,1,2,4,5]}},
-
-  // ---- 移动/交通 ----
-  {inf:'llegar', en:'to arrive', zh:'到达/到', cat:'移动/交通', level:'A1',
-    forms:{
-      presente:['llego','llegas','llega','llegamos','llegáis','llegan'],
-      perfecto:['he llegado','has llegado','ha llegado','hemos llegado','habéis llegado','han llegado'],
-      indefinido:['llegué','llegaste','llegó','llegamos','llegasteis','llegaron'],
-      futuro:['voy a llegar','vas a llegar','va a llegar','vamos a llegar','vais a llegar','van a llegar']
-    }, irregular:{indefinido:[0]}},
-
-  {inf:'salir', en:'to leave / to go out', zh:'出去/离开', cat:'移动/交通', level:'A1',
-    forms:{
-      presente:['salgo','sales','sale','salimos','salís','salen'],
-      perfecto:['he salido','has salido','ha salido','hemos salido','habéis salido','han salido'],
-      indefinido:['salí','saliste','salió','salimos','salisteis','salieron'],
-      futuro:['voy a salir','vas a salir','va a salir','vamos a salir','vais a salir','van a salir']
-    }, irregular:{presente:[0]}},
-
-  {inf:'volver', en:'to return / to come back', zh:'回来/返回', cat:'移动/交通', level:'A1',
-    forms:{
-      presente:['vuelvo','vuelves','vuelve','volvemos','volvéis','vuelven'],
-      perfecto:['he vuelto','has vuelto','ha vuelto','hemos vuelto','habéis vuelto','han vuelto'],
-      indefinido:['volví','volviste','volvió','volvimos','volvisteis','volvieron'],
-      futuro:['voy a volver','vas a volver','va a volver','vamos a volver','vais a volver','van a volver']
-    }, irregular:{presente:[0,1,2,4,5]}},
-
-  {inf:'coger', en:'to take (transport)', zh:'乘坐/拿', cat:'移动/交通', level:'A1',
-    forms:{
-      presente:['cojo','coges','coge','cogemos','cogéis','cogen'],
-      perfecto:['he cogido','has cogido','ha cogido','hemos cogido','habéis cogido','han cogido'],
-      indefinido:['cogí','cogiste','cogió','cogimos','cogisteis','cogieron'],
-      futuro:['voy a coger','vas a coger','va a coger','vamos a coger','vais a coger','van a coger']
-    }, irregular:{presente:[0]}},
-
-  {inf:'conducir', en:'to drive', zh:'开车', cat:'移动/交通', level:'A2',
-    forms:{
-      presente:['conduzco','conduces','conduce','conducimos','conducís','conducen'],
-      perfecto:['he conducido','has conducido','ha conducido','hemos conducido','habéis conducido','han conducido'],
-      indefinido:['conduje','condujiste','condujo','condujimos','condujisteis','condujeron'],
-      futuro:['voy a conducir','vas a conducir','va a conducir','vamos a conducir','vais a conducir','van a conducir'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','conduce','conduzca','conduzcamos','conducid','conduzcan']
-    }, irregular:{presente:[0], indefinido:[0,1,2,3,4,5], imperativo:[1,2,3,5]}},
-
-  // ---- REFLEXIVE VERBS (dedicated entries) ----
-  {inf:'levantarse', en:'to get up', zh:'起床', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me levanto','te levantas','se levanta','nos levantamos','os levantáis','se levantan'],
-      imperativo:['—','levántate','levántese','levantémonos','levantaos','levántense']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'acostarse', en:'to go to bed', zh:'睡觉/躺下', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me acuesto','te acuestas','se acuesta','nos acostamos','os acostáis','se acuestan'],
-      imperativo:['—','acuéstate','acuéstese','acostémonos','acostaos','acuéstense']
-    }, irregular:{reflexivo:[0,1,2,4,5], imperativo:[1,2,3,5]}},
-
-  {inf:'ducharse', en:'to shower', zh:'洗澡', cat:'身体/健康', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me ducho','te duchas','se ducha','nos duchamos','os ducháis','se duchan'],
-      imperativo:['—','dúchate','dúchese','duchémonos','duchaos','dúchense']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'vestirse', en:'to get dressed', zh:'穿衣服', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me visto','te vistes','se viste','nos vestimos','os vestís','se visten'],
-      imperativo:['—','vístete','vístase','vistámonos','vestíos','vístanse']
-    }, irregular:{reflexivo:[0,1,2,4,5], imperativo:[1,2,3,5]}},
-
-  {inf:'despertarse', en:'to wake up', zh:'醒来', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me despierto','te despiertas','se despierta','nos despertamos','os despertáis','se despiertan'],
-      imperativo:['—','despiértate','despiértese','despertémonos','despertaos','despiértense']
-    }, irregular:{reflexivo:[0,1,2,4,5], imperativo:[1,2,3,5]}},
-
-  {inf:'quedarse', en:'to stay / to remain', zh:'留下/保持', cat:'日常动词', level:'A2',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me quedo','te quedas','se queda','nos quedamos','os quedáis','se quedan'],
-      imperativo:['—','quédate','quédese','quedémonos','quedaos','quédense']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'ponerse', en:'to put on (clothes) / to become', zh:'穿上/变得', cat:'日常动词', level:'A2',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me pongo','te pones','se pone','nos ponemos','os ponéis','se ponen'],
-      imperativo:['—','ponte','póngase','pongámonos','poneos','pónganse']
-    }, irregular:{reflexivo:[0], imperativo:[1,2,3,5]}},
-
-  {inf:'irse', en:'to leave / to go away', zh:'离开/走', cat:'移动/交通', level:'A2',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['me voy','te vas','se va','nos vamos','os vais','se van'],
-      imperativo:['—','vete','váyase','vámonos','idos','váyanse']
-    }, irregular:{reflexivo:[0,1,2,3,4,5], imperativo:[1,2,3,5]}},
-
-  // ---- IMPERATIVO-FOCUSED (common verbs with full imperativo forms) ----
-  {inf:'hablar (imp.)', en:'to speak — imperative', zh:'说话（命令式）', cat:'学习', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','habla','hable','hablemos','hablad','hablen']
-    }, irregular:{}},
-
-  {inf:'comer (imp.)', en:'to eat — imperative', zh:'吃（命令式）', cat:'饮食', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','come','coma','comamos','comed','coman']
-    }, irregular:{}},
-
-  {inf:'ir (imp.)', en:'to go — imperative', zh:'去（命令式）', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','ve','vaya','vayamos','id','vayan']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'hacer (imp.)', en:'to do — imperative', zh:'做（命令式）', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','haz','haga','hagamos','haced','hagan']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'tener (imp.)', en:'to have — imperative', zh:'有（命令式）', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','ten','tenga','tengamos','tened','tengan']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'ser (imp.)', en:'to be — imperative', zh:'是（命令式）', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','sé','sea','seamos','sed','sean']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'venir (imp.)', en:'to come — imperative', zh:'来（命令式）', cat:'日常动词', level:'A2',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','ven','venga','vengamos','venid','vengan']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'poner (imp.)', en:'to put — imperative', zh:'放（命令式）', cat:'日常动词', level:'A2',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','pon','ponga','pongamos','poned','pongan']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'decir (imp.)', en:'to say — imperative', zh:'说（命令式）', cat:'学习', level:'A2',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','di','diga','digamos','decid','digan']
-    }, irregular:{imperativo:[1,2,3,5]}},
-
-  {inf:'escuchar (imp.)', en:'to listen — imperative', zh:'听（命令式）', cat:'学习', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','escucha','escuche','escuchemos','escuchad','escuchen']
-    }, irregular:{}},
-
-  {inf:'mirar (imp.)', en:'to look — imperative', zh:'看（命令式）', cat:'日常动词', level:'A1',
-    forms:{
-      presente:['—','—','—','—','—','—'],
-      perfecto:['—','—','—','—','—','—'],
-      indefinido:['—','—','—','—','—','—'],
-      futuro:['—','—','—','—','—','—'],
-      reflexivo:['—','—','—','—','—','—'],
-      imperativo:['—','mira','mire','miremos','mirad','miren']
-    }, irregular:{}},
-];
+let VERBS = []; // loaded from verbs.json
 
 // ============================================================
 // STATE
@@ -1571,6 +997,129 @@ function buildReference() {
 }
 
 // ============================================================
+// PERSISTENCE — localStorage
+// ============================================================
+const LS_SETTINGS = 'conjugar_settings';
+const LS_PROGRESS = 'conjugar_progress';
+
+function saveSettings() {
+  const s = {
+    category: state.category,
+    activeTenses: state.activeTenses,
+    activePronouns: state.activePronouns,
+    verbLevels: state.verbLevels,
+    irregFilter: state.irregFilter,
+    autoSpeak: state.autoSpeak,
+    speakAnswer: state.speakAnswer,
+    lang: currentLang,
+    darkMode: document.documentElement.getAttribute('data-theme') === 'dark',
+  };
+  localStorage.setItem(LS_SETTINGS, JSON.stringify(s));
+}
+
+function loadSettings() {
+  try {
+    const s = JSON.parse(localStorage.getItem(LS_SETTINGS));
+    if (!s) return;
+    if (s.category) state.category = s.category;
+    if (s.activeTenses) state.activeTenses = s.activeTenses;
+    if (s.activePronouns) state.activePronouns = s.activePronouns;
+    if (s.verbLevels) state.verbLevels = s.verbLevels;
+    if (s.irregFilter) state.irregFilter = s.irregFilter;
+    if (typeof s.autoSpeak === 'boolean') state.autoSpeak = s.autoSpeak;
+    if (typeof s.speakAnswer === 'boolean') state.speakAnswer = s.speakAnswer;
+    if (s.lang) currentLang = s.lang;
+    if (s.darkMode) applyDarkMode(true, false);
+  } catch(e) {}
+}
+
+function syncSettingsUI() {
+  // toggles
+  document.getElementById('toggleAutoSpeak').checked = state.autoSpeak;
+  document.getElementById('toggleSpeakAnswer').checked = state.speakAnswer;
+  document.getElementById('toggleDarkMode').checked =
+    document.documentElement.getAttribute('data-theme') === 'dark';
+  // level checkboxes
+  document.getElementById('levelA1').checked = state.verbLevels.includes('A1');
+  document.getElementById('levelA2').checked = state.verbLevels.includes('A2');
+  // irregFilter radio
+  setIrregFilter(state.irregFilter);
+}
+
+// ── Dark mode ──────────────────────────────────────────────
+function applyDarkMode(on, save = true) {
+  document.documentElement.setAttribute('data-theme', on ? 'dark' : 'light');
+  const toggle = document.getElementById('toggleDarkMode');
+  if (toggle) toggle.checked = on;
+  // update theme-color meta for Android Chrome
+  document.querySelector('meta[name="theme-color"]').content = on ? '#141210' : '#2D5016';
+  if (save) saveSettings();
+}
+
+document.getElementById('toggleDarkMode').addEventListener('change', function() {
+  applyDarkMode(this.checked);
+});
+
+// ── Progress tracking ──────────────────────────────────────
+function getTodayKey() {
+  return new Date().toISOString().slice(0, 10); // "2025-02-20"
+}
+
+function loadProgress() {
+  try { return JSON.parse(localStorage.getItem(LS_PROGRESS)) || {}; } catch(e) { return {}; }
+}
+
+function saveProgress(p) {
+  localStorage.setItem(LS_PROGRESS, JSON.stringify(p));
+}
+
+function recordCard() {
+  const p = loadProgress();
+  const today = getTodayKey();
+  p.total = (p.total || 0) + 1;
+  p.byDay = p.byDay || {};
+  p.byDay[today] = (p.byDay[today] || 0) + 1;
+  // streak: count consecutive days up to today
+  p.streak = calcStreak(p.byDay);
+  saveProgress(p);
+  renderProgressStats();
+}
+
+function calcStreak(byDay) {
+  let streak = 0;
+  const d = new Date();
+  for (let i = 0; i < 365; i++) {
+    const key = d.toISOString().slice(0, 10);
+    if (byDay[key]) { streak++; d.setDate(d.getDate() - 1); }
+    else if (i === 0) { d.setDate(d.getDate() - 1); } // today not yet practiced → check yesterday
+    else break;
+  }
+  return streak;
+}
+
+function renderProgressStats() {
+  const el = document.getElementById('progressStats');
+  if (!el) return;
+  const p = loadProgress();
+  const today = getTodayKey();
+  const todayCount = (p.byDay || {})[today] || 0;
+  const stat = (label, value) =>
+    `<div style="display:flex;justify-content:space-between;align-items:center;font-size:14px">
+      <span style="color:var(--text-muted)">${label}</span>
+      <span style="font-weight:600;font-size:16px;color:var(--accent)">${value}</span>
+    </div>`;
+  el.innerHTML =
+    stat(t('progress_today'), `${todayCount} ${t('progress_cards')}`) +
+    stat(t('progress_total'), `${p.total || 0} ${t('progress_cards')}`) +
+    stat(t('progress_streak'), `${p.streak || 0} ${t('progress_days')}`);
+}
+
+function resetProgress() {
+  localStorage.removeItem(LS_PROGRESS);
+  renderProgressStats();
+}
+
+// ============================================================
 // INIT
 // ============================================================
 
@@ -1612,6 +1161,7 @@ function buildPronounCheckboxes() {
 function selectCategory(cat) {
   state.category = cat;
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.getAttribute('data-cat') === cat));
+  saveSettings();
   buildQueue();
   renderCard();
 }
@@ -1620,6 +1170,7 @@ function toggleTense(id, checked) {
   if (checked) { if (!state.activeTenses.includes(id)) state.activeTenses.push(id); }
   else { state.activeTenses = state.activeTenses.filter(t => t !== id); }
   if (state.activeTenses.length === 0) { state.activeTenses = [id]; buildTenseCheckboxes(); }
+  saveSettings();
   buildQueue();
   renderCard();
 }
@@ -1628,6 +1179,7 @@ function togglePronoun(idx, checked) {
   if (checked) { if (!state.activePronouns.includes(idx)) state.activePronouns.push(idx); }
   else { state.activePronouns = state.activePronouns.filter(i => i !== idx); }
   if (state.activePronouns.length === 0) { state.activePronouns = [idx]; buildPronounCheckboxes(); }
+  saveSettings();
   buildQueue();
   renderCard();
 }
@@ -1737,6 +1289,7 @@ function handleCardClick() {
 
 function nextCard() {
   state.idx = (state.idx + 1) % state.queue.length;
+  recordCard();
   renderCard();
 }
 
@@ -1756,23 +1309,38 @@ function updateProgress() {
 // ============================================================
 // SPEECH
 // ============================================================
+let cachedVoice = null;
+
+function loadVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices.length) return;
+  cachedVoice =
+    voices.find(v => v.lang.startsWith('es') && v.name.includes('Google')) ||
+    voices.find(v => v.lang === 'es-ES') ||
+    voices.find(v => v.lang.startsWith('es')) ||
+    null;
+}
+
+window.speechSynthesis.onvoiceschanged = () => { loadVoice(); };
+// Also try immediately (works on desktop)
+loadVoice();
+
 function speakText(text) {
-  if (!state.autoSpeak && !state.speakAnswer) return;
+  if (!window.speechSynthesis) return;
   try {
+    window.speechSynthesis.cancel();
     const utt = new SpeechSynthesisUtterance(text);
     utt.lang = 'es-ES';
     utt.rate = 0.9;
-    // Try to get a Google ES voice
-    const voices = window.speechSynthesis.getVoices();
-    const googleES = voices.find(v => v.lang.startsWith('es') && v.name.includes('Google'));
-    const anyES = voices.find(v => v.lang.startsWith('es'));
-    if (googleES) utt.voice = googleES;
-    else if (anyES) utt.voice = anyES;
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utt);
+    if (cachedVoice) utt.voice = cachedVoice;
+    // Android workaround: re-attempt if voices not ready yet
+    if (!cachedVoice) {
+      loadVoice();
+      if (cachedVoice) utt.voice = cachedVoice;
+    }
     const btn = document.getElementById('soundBtn');
-    btn.classList.add('speaking');
-    utt.onend = () => btn.classList.remove('speaking');
+    if (btn) { btn.classList.add('speaking'); utt.onend = () => btn.classList.remove('speaking'); }
+    window.speechSynthesis.speak(utt);
   } catch(e) {}
 }
 
@@ -1780,29 +1348,19 @@ function speakCurrent() {
   const item = state.queue[state.idx % state.queue.length];
   if (!item) return;
   const text = state.revealed ? item.verb.forms[item.tense][item.pronIdx] : item.verb.inf;
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang = 'es-ES';
-  utt.rate = 0.9;
-  const voices = window.speechSynthesis.getVoices();
-  const googleES = voices.find(v => v.lang.startsWith('es') && v.name.includes('Google'));
-  const anyES = voices.find(v => v.lang.startsWith('es'));
-  if (googleES) utt.voice = googleES;
-  else if (anyES) utt.voice = anyES;
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utt);
+  speakText(text);
 }
-
-// Load voices async
-window.speechSynthesis.onvoiceschanged = () => {};
 
 // ============================================================
 // SETTINGS SYNC
 // ============================================================
 document.getElementById('toggleAutoSpeak').addEventListener('change', function() {
   state.autoSpeak = this.checked;
+  saveSettings();
 });
 document.getElementById('toggleSpeakAnswer').addEventListener('change', function() {
   state.speakAnswer = this.checked;
+  saveSettings();
 });
 
 function toggleVerbLevel(level, checked) {
@@ -1812,6 +1370,7 @@ function toggleVerbLevel(level, checked) {
     state.verbLevels = [level];
     document.getElementById('level' + level).checked = true;
   }
+  saveSettings();
   buildQueue(); renderCard();
 }
 
@@ -1825,6 +1384,7 @@ function setIrregFilter(val) {
       el.innerHTML = v === val ? '<span style="color:white;font-size:11px;font-weight:700">✓</span>' : '';
     }
   });
+  saveSettings();
   buildQueue(); renderCard();
 }
 
@@ -1840,11 +1400,11 @@ function showPage(id) {
   document.querySelectorAll('.nav-tab').forEach((tab, i) => {
     tab.classList.toggle('active', ['practice','reference','settings'][i] === id);
   });
-  // If returning to practice, speak the current card
   if (id === 'practice' && state.autoSpeak && state.queue.length > 0) {
     const item = state.queue[state.idx % state.queue.length];
     setTimeout(() => speakText(item.verb.inf), 150);
   }
+  if (id === 'settings') renderProgressStats();
 }
 
 // ============================================================
@@ -1904,6 +1464,16 @@ const TRANSLATIONS = {
     },
     meaning_sep: ' · ',   // separator between en and zh in card
     show_zh: true,
+    settings_appearance: '外观',
+    dark_mode: '深色模式',
+    dark_mode_sub: '护眼，适合夜间学习',
+    settings_progress: '学习进度',
+    reset_progress: '重置进度',
+    progress_today: '今天练习',
+    progress_total: '累计练习',
+    progress_streak: '连续天数',
+    progress_cards: '张卡片',
+    progress_days: '天',
   },
   en: {
     nav_practice: 'Practice',
@@ -1945,6 +1515,16 @@ const TRANSLATIONS = {
     },
     meaning_sep: ' · ',
     show_zh: false,
+    settings_appearance: 'Appearance',
+    dark_mode: 'Dark mode',
+    dark_mode_sub: 'Easier on the eyes at night',
+    settings_progress: 'Progress',
+    reset_progress: 'Reset progress',
+    progress_today: 'Today',
+    progress_total: 'Total',
+    progress_streak: 'Streak',
+    progress_cards: 'cards',
+    progress_days: 'days',
   },
 };
 
@@ -1982,11 +1562,27 @@ function setLang(lang) {
 
   // Re-render card (updates meaning display language)
   renderCard();
+  renderProgressStats();
+  saveSettings();
 }
 
 function init() {
-  buildQueue();
-  setLang('en');
+  loadSettings(); // restore state + dark mode before building UI
+  fetch('verbs.json')
+    .then(r => r.json())
+    .then(data => {
+      VERBS = data;
+      buildQueue();
+      setLang(currentLang);
+      syncSettingsUI();
+      renderProgressStats();
+    })
+    .catch(() => {
+      buildQueue();
+      setLang(currentLang);
+      syncSettingsUI();
+      renderProgressStats();
+    });
 }
 
 init();

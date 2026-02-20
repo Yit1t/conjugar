@@ -1,0 +1,7273 @@
+[
+  {
+    "inf": "ser",
+    "en": "to be (permanent)",
+    "zh": "是（永久）",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "soy",
+        "eres",
+        "es",
+        "somos",
+        "sois",
+        "son"
+      ],
+      "perfecto": [
+        "he sido",
+        "has sido",
+        "ha sido",
+        "hemos sido",
+        "habéis sido",
+        "han sido"
+      ],
+      "indefinido": [
+        "fui",
+        "fuiste",
+        "fue",
+        "fuimos",
+        "fuisteis",
+        "fueron"
+      ],
+      "futuro": [
+        "voy a ser",
+        "vas a ser",
+        "va a ser",
+        "vamos a ser",
+        "vais a ser",
+        "van a ser"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "estar",
+    "en": "to be (state/location)",
+    "zh": "在/处于",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "estoy",
+        "estás",
+        "está",
+        "estamos",
+        "estáis",
+        "están"
+      ],
+      "perfecto": [
+        "he estado",
+        "has estado",
+        "ha estado",
+        "hemos estado",
+        "habéis estado",
+        "han estado"
+      ],
+      "indefinido": [
+        "estuve",
+        "estuviste",
+        "estuvo",
+        "estuvimos",
+        "estuvisteis",
+        "estuvieron"
+      ],
+      "futuro": [
+        "voy a estar",
+        "vas a estar",
+        "va a estar",
+        "vamos a estar",
+        "vais a estar",
+        "van a estar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "tener",
+    "en": "to have",
+    "zh": "有",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "tengo",
+        "tienes",
+        "tiene",
+        "tenemos",
+        "tenéis",
+        "tienen"
+      ],
+      "perfecto": [
+        "he tenido",
+        "has tenido",
+        "ha tenido",
+        "hemos tenido",
+        "habéis tenido",
+        "han tenido"
+      ],
+      "indefinido": [
+        "tuve",
+        "tuviste",
+        "tuvo",
+        "tuvimos",
+        "tuvisteis",
+        "tuvieron"
+      ],
+      "futuro": [
+        "voy a tener",
+        "vas a tener",
+        "va a tener",
+        "vamos a tener",
+        "vais a tener",
+        "van a tener"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "hacer",
+    "en": "to do / to make",
+    "zh": "做",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "hago",
+        "haces",
+        "hace",
+        "hacemos",
+        "hacéis",
+        "hacen"
+      ],
+      "perfecto": [
+        "he hecho",
+        "has hecho",
+        "ha hecho",
+        "hemos hecho",
+        "habéis hecho",
+        "han hecho"
+      ],
+      "indefinido": [
+        "hice",
+        "hiciste",
+        "hizo",
+        "hicimos",
+        "hicisteis",
+        "hicieron"
+      ],
+      "futuro": [
+        "voy a hacer",
+        "vas a hacer",
+        "va a hacer",
+        "vamos a hacer",
+        "vais a hacer",
+        "van a hacer"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "ir",
+    "en": "to go",
+    "zh": "去",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "voy",
+        "vas",
+        "va",
+        "vamos",
+        "vais",
+        "van"
+      ],
+      "perfecto": [
+        "he ido",
+        "has ido",
+        "ha ido",
+        "hemos ido",
+        "habéis ido",
+        "han ido"
+      ],
+      "indefinido": [
+        "fui",
+        "fuiste",
+        "fue",
+        "fuimos",
+        "fuisteis",
+        "fueron"
+      ],
+      "futuro": [
+        "voy a ir",
+        "vas a ir",
+        "va a ir",
+        "vamos a ir",
+        "vais a ir",
+        "van a ir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "venir",
+    "en": "to come",
+    "zh": "来",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "vengo",
+        "vienes",
+        "viene",
+        "venimos",
+        "venís",
+        "vienen"
+      ],
+      "perfecto": [
+        "he venido",
+        "has venido",
+        "ha venido",
+        "hemos venido",
+        "habéis venido",
+        "han venido"
+      ],
+      "indefinido": [
+        "vine",
+        "viniste",
+        "vino",
+        "vinimos",
+        "vinisteis",
+        "vinieron"
+      ],
+      "futuro": [
+        "voy a venir",
+        "vas a venir",
+        "va a venir",
+        "vamos a venir",
+        "vais a venir",
+        "van a venir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "querer",
+    "en": "to want / to love",
+    "zh": "想要/爱",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "quiero",
+        "quieres",
+        "quiere",
+        "queremos",
+        "queréis",
+        "quieren"
+      ],
+      "perfecto": [
+        "he querido",
+        "has querido",
+        "ha querido",
+        "hemos querido",
+        "habéis querido",
+        "han querido"
+      ],
+      "indefinido": [
+        "quise",
+        "quisiste",
+        "quiso",
+        "quisimos",
+        "quisisteis",
+        "quisieron"
+      ],
+      "futuro": [
+        "voy a querer",
+        "vas a querer",
+        "va a querer",
+        "vamos a querer",
+        "vais a querer",
+        "van a querer"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "poder",
+    "en": "can / to be able to",
+    "zh": "能/可以",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "puedo",
+        "puedes",
+        "puede",
+        "podemos",
+        "podéis",
+        "pueden"
+      ],
+      "perfecto": [
+        "he podido",
+        "has podido",
+        "ha podido",
+        "hemos podido",
+        "habéis podido",
+        "han podido"
+      ],
+      "indefinido": [
+        "pude",
+        "pudiste",
+        "pudo",
+        "pudimos",
+        "pudisteis",
+        "pudieron"
+      ],
+      "futuro": [
+        "voy a poder",
+        "vas a poder",
+        "va a poder",
+        "vamos a poder",
+        "vais a poder",
+        "van a poder"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "saber",
+    "en": "to know (facts)",
+    "zh": "知道/会",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "sé",
+        "sabes",
+        "sabe",
+        "sabemos",
+        "sabéis",
+        "saben"
+      ],
+      "perfecto": [
+        "he sabido",
+        "has sabido",
+        "ha sabido",
+        "hemos sabido",
+        "habéis sabido",
+        "han sabido"
+      ],
+      "indefinido": [
+        "supe",
+        "supiste",
+        "supo",
+        "supimos",
+        "supisteis",
+        "supieron"
+      ],
+      "futuro": [
+        "voy a saber",
+        "vas a saber",
+        "va a saber",
+        "vamos a saber",
+        "vais a saber",
+        "van a saber"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "decir",
+    "en": "to say / to tell",
+    "zh": "说/告诉",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "digo",
+        "dices",
+        "dice",
+        "decimos",
+        "decís",
+        "dicen"
+      ],
+      "perfecto": [
+        "he dicho",
+        "has dicho",
+        "ha dicho",
+        "hemos dicho",
+        "habéis dicho",
+        "han dicho"
+      ],
+      "indefinido": [
+        "dije",
+        "dijiste",
+        "dijo",
+        "dijimos",
+        "dijisteis",
+        "dijeron"
+      ],
+      "futuro": [
+        "voy a decir",
+        "vas a decir",
+        "va a decir",
+        "vamos a decir",
+        "vais a decir",
+        "van a decir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        2,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "dar",
+    "en": "to give",
+    "zh": "给",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "doy",
+        "das",
+        "da",
+        "damos",
+        "dais",
+        "dan"
+      ],
+      "perfecto": [
+        "he dado",
+        "has dado",
+        "ha dado",
+        "hemos dado",
+        "habéis dado",
+        "han dado"
+      ],
+      "indefinido": [
+        "di",
+        "diste",
+        "dio",
+        "dimos",
+        "disteis",
+        "dieron"
+      ],
+      "futuro": [
+        "voy a dar",
+        "vas a dar",
+        "va a dar",
+        "vamos a dar",
+        "vais a dar",
+        "van a dar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "inf": "poner",
+    "en": "to put / to place",
+    "zh": "放",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "pongo",
+        "pones",
+        "pone",
+        "ponemos",
+        "ponéis",
+        "ponen"
+      ],
+      "perfecto": [
+        "he puesto",
+        "has puesto",
+        "ha puesto",
+        "hemos puesto",
+        "habéis puesto",
+        "han puesto"
+      ],
+      "indefinido": [
+        "puse",
+        "pusiste",
+        "puso",
+        "pusimos",
+        "pusisteis",
+        "pusieron"
+      ],
+      "futuro": [
+        "voy a poner",
+        "vas a poner",
+        "va a poner",
+        "vamos a poner",
+        "vais a poner",
+        "van a poner"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "ver",
+    "en": "to see / to watch",
+    "zh": "看/看见",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "veo",
+        "ves",
+        "ve",
+        "vemos",
+        "veis",
+        "ven"
+      ],
+      "perfecto": [
+        "he visto",
+        "has visto",
+        "ha visto",
+        "hemos visto",
+        "habéis visto",
+        "han visto"
+      ],
+      "indefinido": [
+        "vi",
+        "viste",
+        "vio",
+        "vimos",
+        "visteis",
+        "vieron"
+      ],
+      "futuro": [
+        "voy a ver",
+        "vas a ver",
+        "va a ver",
+        "vamos a ver",
+        "vais a ver",
+        "van a ver"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "inf": "hablar",
+    "en": "to speak / to talk",
+    "zh": "说话",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "hablo",
+        "hablas",
+        "habla",
+        "hablamos",
+        "habláis",
+        "hablan"
+      ],
+      "perfecto": [
+        "he hablado",
+        "has hablado",
+        "ha hablado",
+        "hemos hablado",
+        "habéis hablado",
+        "han hablado"
+      ],
+      "indefinido": [
+        "hablé",
+        "hablaste",
+        "habló",
+        "hablamos",
+        "hablasteis",
+        "hablaron"
+      ],
+      "futuro": [
+        "voy a hablar",
+        "vas a hablar",
+        "va a hablar",
+        "vamos a hablar",
+        "vais a hablar",
+        "van a hablar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "vivir",
+    "en": "to live",
+    "zh": "住/生活",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "vivo",
+        "vives",
+        "vive",
+        "vivimos",
+        "vivís",
+        "viven"
+      ],
+      "perfecto": [
+        "he vivido",
+        "has vivido",
+        "ha vivido",
+        "hemos vivido",
+        "habéis vivido",
+        "han vivido"
+      ],
+      "indefinido": [
+        "viví",
+        "viviste",
+        "vivió",
+        "vivimos",
+        "vivisteis",
+        "vivieron"
+      ],
+      "futuro": [
+        "voy a vivir",
+        "vas a vivir",
+        "va a vivir",
+        "vamos a vivir",
+        "vais a vivir",
+        "van a vivir"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "llamar",
+    "en": "to call",
+    "zh": "打电话/叫",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "llamo",
+        "llamas",
+        "llama",
+        "llamamos",
+        "llamáis",
+        "llaman"
+      ],
+      "perfecto": [
+        "he llamado",
+        "has llamado",
+        "ha llamado",
+        "hemos llamado",
+        "habéis llamado",
+        "han llamado"
+      ],
+      "indefinido": [
+        "llamé",
+        "llamaste",
+        "llamó",
+        "llamamos",
+        "llamasteis",
+        "llamaron"
+      ],
+      "futuro": [
+        "voy a llamar",
+        "vas a llamar",
+        "va a llamar",
+        "vamos a llamar",
+        "vais a llamar",
+        "van a llamar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "gustar",
+    "en": "to like",
+    "zh": "喜欢",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "me gusta",
+        "te gusta",
+        "le gusta",
+        "nos gusta",
+        "os gusta",
+        "les gusta"
+      ],
+      "perfecto": [
+        "me ha gustado",
+        "te ha gustado",
+        "le ha gustado",
+        "nos ha gustado",
+        "os ha gustado",
+        "les ha gustado"
+      ],
+      "indefinido": [
+        "me gustó",
+        "te gustó",
+        "le gustó",
+        "nos gustó",
+        "os gustó",
+        "les gustó"
+      ],
+      "futuro": [
+        "me va a gustar",
+        "te va a gustar",
+        "le va a gustar",
+        "nos va a gustar",
+        "os va a gustar",
+        "les va a gustar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "abrir",
+    "en": "to open",
+    "zh": "打开",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "abro",
+        "abres",
+        "abre",
+        "abrimos",
+        "abrís",
+        "abren"
+      ],
+      "perfecto": [
+        "he abierto",
+        "has abierto",
+        "ha abierto",
+        "hemos abierto",
+        "habéis abierto",
+        "han abierto"
+      ],
+      "indefinido": [
+        "abrí",
+        "abriste",
+        "abrió",
+        "abrimos",
+        "abristeis",
+        "abrieron"
+      ],
+      "futuro": [
+        "voy a abrir",
+        "vas a abrir",
+        "va a abrir",
+        "vamos a abrir",
+        "vais a abrir",
+        "van a abrir"
+      ]
+    },
+    "irregular": {
+      "perfecto": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "cerrar",
+    "en": "to close",
+    "zh": "关闭",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "cierro",
+        "cierras",
+        "cierra",
+        "cerramos",
+        "cerráis",
+        "cierran"
+      ],
+      "perfecto": [
+        "he cerrado",
+        "has cerrado",
+        "ha cerrado",
+        "hemos cerrado",
+        "habéis cerrado",
+        "han cerrado"
+      ],
+      "indefinido": [
+        "cerré",
+        "cerraste",
+        "cerró",
+        "cerramos",
+        "cerrasteis",
+        "cerraron"
+      ],
+      "futuro": [
+        "voy a cerrar",
+        "vas a cerrar",
+        "va a cerrar",
+        "vamos a cerrar",
+        "vais a cerrar",
+        "van a cerrar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "llevar",
+    "en": "to carry / to take",
+    "zh": "带/拿",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "llevo",
+        "llevas",
+        "lleva",
+        "llevamos",
+        "lleváis",
+        "llevan"
+      ],
+      "perfecto": [
+        "he llevado",
+        "has llevado",
+        "ha llevado",
+        "hemos llevado",
+        "habéis llevado",
+        "han llevado"
+      ],
+      "indefinido": [
+        "llevé",
+        "llevaste",
+        "llevó",
+        "llevamos",
+        "llevasteis",
+        "llevaron"
+      ],
+      "futuro": [
+        "voy a llevar",
+        "vas a llevar",
+        "va a llevar",
+        "vamos a llevar",
+        "vais a llevar",
+        "van a llevar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "traer",
+    "en": "to bring",
+    "zh": "带来",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "traigo",
+        "traes",
+        "trae",
+        "traemos",
+        "traéis",
+        "traen"
+      ],
+      "perfecto": [
+        "he traído",
+        "has traído",
+        "ha traído",
+        "hemos traído",
+        "habéis traído",
+        "han traído"
+      ],
+      "indefinido": [
+        "traje",
+        "trajiste",
+        "trajo",
+        "trajimos",
+        "trajisteis",
+        "trajeron"
+      ],
+      "futuro": [
+        "voy a traer",
+        "vas a traer",
+        "va a traer",
+        "vamos a traer",
+        "vais a traer",
+        "van a traer"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "esperar",
+    "en": "to wait / to hope",
+    "zh": "等待/希望",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "espero",
+        "esperas",
+        "espera",
+        "esperamos",
+        "esperáis",
+        "esperan"
+      ],
+      "perfecto": [
+        "he esperado",
+        "has esperado",
+        "ha esperado",
+        "hemos esperado",
+        "habéis esperado",
+        "han esperado"
+      ],
+      "indefinido": [
+        "esperé",
+        "esperaste",
+        "esperó",
+        "esperamos",
+        "esperasteis",
+        "esperaron"
+      ],
+      "futuro": [
+        "voy a esperar",
+        "vas a esperar",
+        "va a esperar",
+        "vamos a esperar",
+        "vais a esperar",
+        "van a esperar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "pensar",
+    "en": "to think",
+    "zh": "想/认为",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "pienso",
+        "piensas",
+        "piensa",
+        "pensamos",
+        "pensáis",
+        "piensan"
+      ],
+      "perfecto": [
+        "he pensado",
+        "has pensado",
+        "ha pensado",
+        "hemos pensado",
+        "habéis pensado",
+        "han pensado"
+      ],
+      "indefinido": [
+        "pensé",
+        "pensaste",
+        "pensó",
+        "pensamos",
+        "pensasteis",
+        "pensaron"
+      ],
+      "futuro": [
+        "voy a pensar",
+        "vas a pensar",
+        "va a pensar",
+        "vamos a pensar",
+        "vais a pensar",
+        "van a pensar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "saber",
+    "en": "to know (facts)",
+    "zh": "知道",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "sé",
+        "sabes",
+        "sabe",
+        "sabemos",
+        "sabéis",
+        "saben"
+      ],
+      "perfecto": [
+        "he sabido",
+        "has sabido",
+        "ha sabido",
+        "hemos sabido",
+        "habéis sabido",
+        "han sabido"
+      ],
+      "indefinido": [
+        "supe",
+        "supiste",
+        "supo",
+        "supimos",
+        "supisteis",
+        "supieron"
+      ],
+      "futuro": [
+        "voy a saber",
+        "vas a saber",
+        "va a saber",
+        "vamos a saber",
+        "vais a saber",
+        "van a saber"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "conocer",
+    "en": "to know (people/places)",
+    "zh": "认识/了解",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "conozco",
+        "conoces",
+        "conoce",
+        "conocemos",
+        "conocéis",
+        "conocen"
+      ],
+      "perfecto": [
+        "he conocido",
+        "has conocido",
+        "ha conocido",
+        "hemos conocido",
+        "habéis conocido",
+        "han conocido"
+      ],
+      "indefinido": [
+        "conocí",
+        "conociste",
+        "conoció",
+        "conocimos",
+        "conocisteis",
+        "conocieron"
+      ],
+      "futuro": [
+        "voy a conocer",
+        "vas a conocer",
+        "va a conocer",
+        "vamos a conocer",
+        "vais a conocer",
+        "van a conocer"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "entender",
+    "en": "to understand",
+    "zh": "理解/明白",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "entiendo",
+        "entiendes",
+        "entiende",
+        "entendemos",
+        "entendéis",
+        "entienden"
+      ],
+      "perfecto": [
+        "he entendido",
+        "has entendido",
+        "ha entendido",
+        "hemos entendido",
+        "habéis entendido",
+        "han entendido"
+      ],
+      "indefinido": [
+        "entendí",
+        "entendiste",
+        "entendió",
+        "entendimos",
+        "entendisteis",
+        "entendieron"
+      ],
+      "futuro": [
+        "voy a entender",
+        "vas a entender",
+        "va a entender",
+        "vamos a entender",
+        "vais a entender",
+        "van a entender"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "escuchar",
+    "en": "to listen",
+    "zh": "听",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "escucho",
+        "escuchas",
+        "escucha",
+        "escuchamos",
+        "escucháis",
+        "escuchan"
+      ],
+      "perfecto": [
+        "he escuchado",
+        "has escuchado",
+        "ha escuchado",
+        "hemos escuchado",
+        "habéis escuchado",
+        "han escuchado"
+      ],
+      "indefinido": [
+        "escuché",
+        "escuchaste",
+        "escuchó",
+        "escuchamos",
+        "escuchasteis",
+        "escucharon"
+      ],
+      "futuro": [
+        "voy a escuchar",
+        "vas a escuchar",
+        "va a escuchar",
+        "vamos a escuchar",
+        "vais a escuchar",
+        "van a escuchar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "mirar",
+    "en": "to look at / to watch",
+    "zh": "看/观看",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "miro",
+        "miras",
+        "mira",
+        "miramos",
+        "miráis",
+        "miran"
+      ],
+      "perfecto": [
+        "he mirado",
+        "has mirado",
+        "ha mirado",
+        "hemos mirado",
+        "habéis mirado",
+        "han mirado"
+      ],
+      "indefinido": [
+        "miré",
+        "miraste",
+        "miró",
+        "miramos",
+        "mirasteis",
+        "miraron"
+      ],
+      "futuro": [
+        "voy a mirar",
+        "vas a mirar",
+        "va a mirar",
+        "vamos a mirar",
+        "vais a mirar",
+        "van a mirar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "leer",
+    "en": "to read",
+    "zh": "读/阅读",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "leo",
+        "lees",
+        "lee",
+        "leemos",
+        "leéis",
+        "leen"
+      ],
+      "perfecto": [
+        "he leído",
+        "has leído",
+        "ha leído",
+        "hemos leído",
+        "habéis leído",
+        "han leído"
+      ],
+      "indefinido": [
+        "leí",
+        "leíste",
+        "leyó",
+        "leímos",
+        "leísteis",
+        "leyeron"
+      ],
+      "futuro": [
+        "voy a leer",
+        "vas a leer",
+        "va a leer",
+        "vamos a leer",
+        "vais a leer",
+        "van a leer"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "escribir",
+    "en": "to write",
+    "zh": "写",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "escribo",
+        "escribes",
+        "escribe",
+        "escribimos",
+        "escribís",
+        "escriben"
+      ],
+      "perfecto": [
+        "he escrito",
+        "has escrito",
+        "ha escrito",
+        "hemos escrito",
+        "habéis escrito",
+        "han escrito"
+      ],
+      "indefinido": [
+        "escribí",
+        "escribiste",
+        "escribió",
+        "escribimos",
+        "escribisteis",
+        "escribieron"
+      ],
+      "futuro": [
+        "voy a escribir",
+        "vas a escribir",
+        "va a escribir",
+        "vamos a escribir",
+        "vais a escribir",
+        "van a escribir"
+      ]
+    },
+    "irregular": {
+      "perfecto": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "preguntar",
+    "en": "to ask",
+    "zh": "问",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "pregunto",
+        "preguntas",
+        "pregunta",
+        "preguntamos",
+        "preguntáis",
+        "preguntan"
+      ],
+      "perfecto": [
+        "he preguntado",
+        "has preguntado",
+        "ha preguntado",
+        "hemos preguntado",
+        "habéis preguntado",
+        "han preguntado"
+      ],
+      "indefinido": [
+        "pregunté",
+        "preguntaste",
+        "preguntó",
+        "preguntamos",
+        "preguntasteis",
+        "preguntaron"
+      ],
+      "futuro": [
+        "voy a preguntar",
+        "vas a preguntar",
+        "va a preguntar",
+        "vamos a preguntar",
+        "vais a preguntar",
+        "van a preguntar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "contestar",
+    "en": "to answer",
+    "zh": "回答",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "contesto",
+        "contestas",
+        "contesta",
+        "contestamos",
+        "contestáis",
+        "contestan"
+      ],
+      "perfecto": [
+        "he contestado",
+        "has contestado",
+        "ha contestado",
+        "hemos contestado",
+        "habéis contestado",
+        "han contestado"
+      ],
+      "indefinido": [
+        "contesté",
+        "contestaste",
+        "contestó",
+        "contestamos",
+        "contestasteis",
+        "contestaron"
+      ],
+      "futuro": [
+        "voy a contestar",
+        "vas a contestar",
+        "va a contestar",
+        "vamos a contestar",
+        "vais a contestar",
+        "van a contestar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "ayudar",
+    "en": "to help",
+    "zh": "帮助",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "ayudo",
+        "ayudas",
+        "ayuda",
+        "ayudamos",
+        "ayudáis",
+        "ayudan"
+      ],
+      "perfecto": [
+        "he ayudado",
+        "has ayudado",
+        "ha ayudado",
+        "hemos ayudado",
+        "habéis ayudado",
+        "han ayudado"
+      ],
+      "indefinido": [
+        "ayudé",
+        "ayudaste",
+        "ayudó",
+        "ayudamos",
+        "ayudasteis",
+        "ayudaron"
+      ],
+      "futuro": [
+        "voy a ayudar",
+        "vas a ayudar",
+        "va a ayudar",
+        "vamos a ayudar",
+        "vais a ayudar",
+        "van a ayudar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "empezar",
+    "en": "to start / to begin",
+    "zh": "开始",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "empiezo",
+        "empiezas",
+        "empieza",
+        "empezamos",
+        "empezáis",
+        "empiezan"
+      ],
+      "perfecto": [
+        "he empezado",
+        "has empezado",
+        "ha empezado",
+        "hemos empezado",
+        "habéis empezado",
+        "han empezado"
+      ],
+      "indefinido": [
+        "empecé",
+        "empezaste",
+        "empezó",
+        "empezamos",
+        "empezasteis",
+        "empezaron"
+      ],
+      "futuro": [
+        "voy a empezar",
+        "vas a empezar",
+        "va a empezar",
+        "vamos a empezar",
+        "vais a empezar",
+        "van a empezar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "terminar",
+    "en": "to finish / to end",
+    "zh": "结束/完成",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "termino",
+        "terminas",
+        "termina",
+        "terminamos",
+        "termináis",
+        "terminan"
+      ],
+      "perfecto": [
+        "he terminado",
+        "has terminado",
+        "ha terminado",
+        "hemos terminado",
+        "habéis terminado",
+        "han terminado"
+      ],
+      "indefinido": [
+        "terminé",
+        "terminaste",
+        "terminó",
+        "terminamos",
+        "terminasteis",
+        "terminaron"
+      ],
+      "futuro": [
+        "voy a terminar",
+        "vas a terminar",
+        "va a terminar",
+        "vamos a terminar",
+        "vais a terminar",
+        "van a terminar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "usar",
+    "en": "to use",
+    "zh": "使用",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "uso",
+        "usas",
+        "usa",
+        "usamos",
+        "usáis",
+        "usan"
+      ],
+      "perfecto": [
+        "he usado",
+        "has usado",
+        "ha usado",
+        "hemos usado",
+        "habéis usado",
+        "han usado"
+      ],
+      "indefinido": [
+        "usé",
+        "usaste",
+        "usó",
+        "usamos",
+        "usasteis",
+        "usaron"
+      ],
+      "futuro": [
+        "voy a usar",
+        "vas a usar",
+        "va a usar",
+        "vamos a usar",
+        "vais a usar",
+        "van a usar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "recordar",
+    "en": "to remember",
+    "zh": "记得",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "recuerdo",
+        "recuerdas",
+        "recuerda",
+        "recordamos",
+        "recordáis",
+        "recuerdan"
+      ],
+      "perfecto": [
+        "he recordado",
+        "has recordado",
+        "ha recordado",
+        "hemos recordado",
+        "habéis recordado",
+        "han recordado"
+      ],
+      "indefinido": [
+        "recordé",
+        "recordaste",
+        "recordó",
+        "recordamos",
+        "recordasteis",
+        "recordaron"
+      ],
+      "futuro": [
+        "voy a recordar",
+        "vas a recordar",
+        "va a recordar",
+        "vamos a recordar",
+        "vais a recordar",
+        "van a recordar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "olvidar",
+    "en": "to forget",
+    "zh": "忘记",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "olvido",
+        "olvidas",
+        "olvida",
+        "olvidamos",
+        "olvidáis",
+        "olvidan"
+      ],
+      "perfecto": [
+        "he olvidado",
+        "has olvidado",
+        "ha olvidado",
+        "hemos olvidado",
+        "habéis olvidado",
+        "han olvidado"
+      ],
+      "indefinido": [
+        "olvidé",
+        "olvidaste",
+        "olvidó",
+        "olvidamos",
+        "olvidasteis",
+        "olvidaron"
+      ],
+      "futuro": [
+        "voy a olvidar",
+        "vas a olvidar",
+        "va a olvidar",
+        "vamos a olvidar",
+        "vais a olvidar",
+        "van a olvidar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "cambiar",
+    "en": "to change",
+    "zh": "改变/换",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "cambio",
+        "cambias",
+        "cambia",
+        "cambiamos",
+        "cambiáis",
+        "cambian"
+      ],
+      "perfecto": [
+        "he cambiado",
+        "has cambiado",
+        "ha cambiado",
+        "hemos cambiado",
+        "habéis cambiado",
+        "han cambiado"
+      ],
+      "indefinido": [
+        "cambié",
+        "cambiaste",
+        "cambió",
+        "cambiamos",
+        "cambiasteis",
+        "cambiaron"
+      ],
+      "futuro": [
+        "voy a cambiar",
+        "vas a cambiar",
+        "va a cambiar",
+        "vamos a cambiar",
+        "vais a cambiar",
+        "van a cambiar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "pasar",
+    "en": "to pass / to happen",
+    "zh": "经过/发生",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "paso",
+        "pasas",
+        "pasa",
+        "pasamos",
+        "pasáis",
+        "pasan"
+      ],
+      "perfecto": [
+        "he pasado",
+        "has pasado",
+        "ha pasado",
+        "hemos pasado",
+        "habéis pasado",
+        "han pasado"
+      ],
+      "indefinido": [
+        "pasé",
+        "pasaste",
+        "pasó",
+        "pasamos",
+        "pasasteis",
+        "pasaron"
+      ],
+      "futuro": [
+        "voy a pasar",
+        "vas a pasar",
+        "va a pasar",
+        "vamos a pasar",
+        "vais a pasar",
+        "van a pasar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "dejar",
+    "en": "to leave / to let",
+    "zh": "留下/让",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "dejo",
+        "dejas",
+        "deja",
+        "dejamos",
+        "dejáis",
+        "dejan"
+      ],
+      "perfecto": [
+        "he dejado",
+        "has dejado",
+        "ha dejado",
+        "hemos dejado",
+        "habéis dejado",
+        "han dejado"
+      ],
+      "indefinido": [
+        "dejé",
+        "dejaste",
+        "dejó",
+        "dejamos",
+        "dejasteis",
+        "dejaron"
+      ],
+      "futuro": [
+        "voy a dejar",
+        "vas a dejar",
+        "va a dejar",
+        "vamos a dejar",
+        "vais a dejar",
+        "van a dejar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "seguir",
+    "en": "to follow / to continue",
+    "zh": "跟随/继续",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "sigo",
+        "sigues",
+        "sigue",
+        "seguimos",
+        "seguís",
+        "siguen"
+      ],
+      "perfecto": [
+        "he seguido",
+        "has seguido",
+        "ha seguido",
+        "hemos seguido",
+        "habéis seguido",
+        "han seguido"
+      ],
+      "indefinido": [
+        "seguí",
+        "seguiste",
+        "siguió",
+        "seguimos",
+        "seguisteis",
+        "siguieron"
+      ],
+      "futuro": [
+        "voy a seguir",
+        "vas a seguir",
+        "va a seguir",
+        "vamos a seguir",
+        "vais a seguir",
+        "van a seguir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "parecer",
+    "en": "to seem / to look like",
+    "zh": "看起来/似乎",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "parezco",
+        "pareces",
+        "parece",
+        "parecemos",
+        "parecéis",
+        "parecen"
+      ],
+      "perfecto": [
+        "he parecido",
+        "has parecido",
+        "ha parecido",
+        "hemos parecido",
+        "habéis parecido",
+        "han parecido"
+      ],
+      "indefinido": [
+        "parecí",
+        "pareciste",
+        "pareció",
+        "parecimos",
+        "parecisteis",
+        "parecieron"
+      ],
+      "futuro": [
+        "voy a parecer",
+        "vas a parecer",
+        "va a parecer",
+        "vamos a parecer",
+        "vais a parecer",
+        "van a parecer"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "encontrar",
+    "en": "to find / to meet",
+    "zh": "找到/遇见",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "encuentro",
+        "encuentras",
+        "encuentra",
+        "encontramos",
+        "encontráis",
+        "encuentran"
+      ],
+      "perfecto": [
+        "he encontrado",
+        "has encontrado",
+        "ha encontrado",
+        "hemos encontrado",
+        "habéis encontrado",
+        "han encontrado"
+      ],
+      "indefinido": [
+        "encontré",
+        "encontraste",
+        "encontró",
+        "encontramos",
+        "encontrasteis",
+        "encontraron"
+      ],
+      "futuro": [
+        "voy a encontrar",
+        "vas a encontrar",
+        "va a encontrar",
+        "vamos a encontrar",
+        "vais a encontrar",
+        "van a encontrar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "perder",
+    "en": "to lose / to miss",
+    "zh": "失去/错过",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "pierdo",
+        "pierdes",
+        "pierde",
+        "perdemos",
+        "perdéis",
+        "pierden"
+      ],
+      "perfecto": [
+        "he perdido",
+        "has perdido",
+        "ha perdido",
+        "hemos perdido",
+        "habéis perdido",
+        "han perdido"
+      ],
+      "indefinido": [
+        "perdí",
+        "perdiste",
+        "perdió",
+        "perdimos",
+        "perdisteis",
+        "perdieron"
+      ],
+      "futuro": [
+        "voy a perder",
+        "vas a perder",
+        "va a perder",
+        "vamos a perder",
+        "vais a perder",
+        "van a perder"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "ganar",
+    "en": "to win / to earn",
+    "zh": "赢/赚",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "gano",
+        "ganas",
+        "gana",
+        "ganamos",
+        "ganáis",
+        "ganan"
+      ],
+      "perfecto": [
+        "he ganado",
+        "has ganado",
+        "ha ganado",
+        "hemos ganado",
+        "habéis ganado",
+        "han ganado"
+      ],
+      "indefinido": [
+        "gané",
+        "ganaste",
+        "ganó",
+        "ganamos",
+        "ganasteis",
+        "ganaron"
+      ],
+      "futuro": [
+        "voy a ganar",
+        "vas a ganar",
+        "va a ganar",
+        "vamos a ganar",
+        "vais a ganar",
+        "van a ganar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "intentar",
+    "en": "to try",
+    "zh": "尝试",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "intento",
+        "intentas",
+        "intenta",
+        "intentamos",
+        "intentáis",
+        "intentan"
+      ],
+      "perfecto": [
+        "he intentado",
+        "has intentado",
+        "ha intentado",
+        "hemos intentado",
+        "habéis intentado",
+        "han intentado"
+      ],
+      "indefinido": [
+        "intenté",
+        "intentaste",
+        "intentó",
+        "intentamos",
+        "intentasteis",
+        "intentaron"
+      ],
+      "futuro": [
+        "voy a intentar",
+        "vas a intentar",
+        "va a intentar",
+        "vamos a intentar",
+        "vais a intentar",
+        "van a intentar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "conseguir",
+    "en": "to get / to achieve",
+    "zh": "获得/实现",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "consigo",
+        "consigues",
+        "consigue",
+        "conseguimos",
+        "conseguís",
+        "consiguen"
+      ],
+      "perfecto": [
+        "he conseguido",
+        "has conseguido",
+        "ha conseguido",
+        "hemos conseguido",
+        "habéis conseguido",
+        "han conseguido"
+      ],
+      "indefinido": [
+        "conseguí",
+        "conseguiste",
+        "consiguió",
+        "conseguimos",
+        "conseguisteis",
+        "consiguieron"
+      ],
+      "futuro": [
+        "voy a conseguir",
+        "vas a conseguir",
+        "va a conseguir",
+        "vamos a conseguir",
+        "vais a conseguir",
+        "van a conseguir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "comer",
+    "en": "to eat",
+    "zh": "吃",
+    "cat": "饮食",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "como",
+        "comes",
+        "come",
+        "comemos",
+        "coméis",
+        "comen"
+      ],
+      "perfecto": [
+        "he comido",
+        "has comido",
+        "ha comido",
+        "hemos comido",
+        "habéis comido",
+        "han comido"
+      ],
+      "indefinido": [
+        "comí",
+        "comiste",
+        "comió",
+        "comimos",
+        "comisteis",
+        "comieron"
+      ],
+      "futuro": [
+        "voy a comer",
+        "vas a comer",
+        "va a comer",
+        "vamos a comer",
+        "vais a comer",
+        "van a comer"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "beber",
+    "en": "to drink",
+    "zh": "喝",
+    "cat": "饮食",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "bebo",
+        "bebes",
+        "bebe",
+        "bebemos",
+        "bebéis",
+        "beben"
+      ],
+      "perfecto": [
+        "he bebido",
+        "has bebido",
+        "ha bebido",
+        "hemos bebido",
+        "habéis bebido",
+        "han bebido"
+      ],
+      "indefinido": [
+        "bebí",
+        "bebiste",
+        "bebió",
+        "bebimos",
+        "bebisteis",
+        "bebieron"
+      ],
+      "futuro": [
+        "voy a beber",
+        "vas a beber",
+        "va a beber",
+        "vamos a beber",
+        "vais a beber",
+        "van a beber"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "cocinar",
+    "en": "to cook",
+    "zh": "做饭",
+    "cat": "饮食",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "cocino",
+        "cocinas",
+        "cocina",
+        "cocinamos",
+        "cocináis",
+        "cocinan"
+      ],
+      "perfecto": [
+        "he cocinado",
+        "has cocinado",
+        "ha cocinado",
+        "hemos cocinado",
+        "habéis cocinado",
+        "han cocinado"
+      ],
+      "indefinido": [
+        "cociné",
+        "cocinaste",
+        "cocinó",
+        "cocinamos",
+        "cocinasteis",
+        "cocinaron"
+      ],
+      "futuro": [
+        "voy a cocinar",
+        "vas a cocinar",
+        "va a cocinar",
+        "vamos a cocinar",
+        "vais a cocinar",
+        "van a cocinar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "pedir",
+    "en": "to order / to ask for",
+    "zh": "点餐/要求",
+    "cat": "饮食",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "pido",
+        "pides",
+        "pide",
+        "pedimos",
+        "pedís",
+        "piden"
+      ],
+      "perfecto": [
+        "he pedido",
+        "has pedido",
+        "ha pedido",
+        "hemos pedido",
+        "habéis pedido",
+        "han pedido"
+      ],
+      "indefinido": [
+        "pedí",
+        "pediste",
+        "pidió",
+        "pedimos",
+        "pedisteis",
+        "pidieron"
+      ],
+      "futuro": [
+        "voy a pedir",
+        "vas a pedir",
+        "va a pedir",
+        "vamos a pedir",
+        "vais a pedir",
+        "van a pedir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "desayunar",
+    "en": "to have breakfast",
+    "zh": "吃早餐",
+    "cat": "饮食",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "desayuno",
+        "desayunas",
+        "desayuna",
+        "desayunamos",
+        "desayunáis",
+        "desayunan"
+      ],
+      "perfecto": [
+        "he desayunado",
+        "has desayunado",
+        "ha desayunado",
+        "hemos desayunado",
+        "habéis desayunado",
+        "han desayunado"
+      ],
+      "indefinido": [
+        "desayuné",
+        "desayunaste",
+        "desayunó",
+        "desayunamos",
+        "desayunasteis",
+        "desayunaron"
+      ],
+      "futuro": [
+        "voy a desayunar",
+        "vas a desayunar",
+        "va a desayunar",
+        "vamos a desayunar",
+        "vais a desayunar",
+        "van a desayunar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "cenar",
+    "en": "to have dinner",
+    "zh": "吃晚饭",
+    "cat": "饮食",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "ceno",
+        "cenas",
+        "cena",
+        "cenamos",
+        "cenáis",
+        "cenan"
+      ],
+      "perfecto": [
+        "he cenado",
+        "has cenado",
+        "ha cenado",
+        "hemos cenado",
+        "habéis cenado",
+        "han cenado"
+      ],
+      "indefinido": [
+        "cené",
+        "cenaste",
+        "cenó",
+        "cenamos",
+        "cenasteis",
+        "cenaron"
+      ],
+      "futuro": [
+        "voy a cenar",
+        "vas a cenar",
+        "va a cenar",
+        "vamos a cenar",
+        "vais a cenar",
+        "van a cenar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "almorzar",
+    "en": "to have lunch",
+    "zh": "吃午饭",
+    "cat": "饮食",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "almuerzo",
+        "almuerzas",
+        "almuerza",
+        "almorzamos",
+        "almorzáis",
+        "almuerzan"
+      ],
+      "perfecto": [
+        "he almorzado",
+        "has almorzado",
+        "ha almorzado",
+        "hemos almorzado",
+        "habéis almorzado",
+        "han almorzado"
+      ],
+      "indefinido": [
+        "almorcé",
+        "almorzaste",
+        "almorzó",
+        "almorzamos",
+        "almorzasteis",
+        "almorzaron"
+      ],
+      "futuro": [
+        "voy a almorzar",
+        "vas a almorzar",
+        "va a almorzar",
+        "vamos a almorzar",
+        "vais a almorzar",
+        "van a almorzar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "probar",
+    "en": "to try (food) / to taste",
+    "zh": "尝/试",
+    "cat": "饮食",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "pruebo",
+        "pruebas",
+        "prueba",
+        "probamos",
+        "probáis",
+        "prueban"
+      ],
+      "perfecto": [
+        "he probado",
+        "has probado",
+        "ha probado",
+        "hemos probado",
+        "habéis probado",
+        "han probado"
+      ],
+      "indefinido": [
+        "probé",
+        "probaste",
+        "probó",
+        "probamos",
+        "probasteis",
+        "probaron"
+      ],
+      "futuro": [
+        "voy a probar",
+        "vas a probar",
+        "va a probar",
+        "vamos a probar",
+        "vais a probar",
+        "van a probar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "preparar",
+    "en": "to prepare",
+    "zh": "准备",
+    "cat": "饮食",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "preparo",
+        "preparas",
+        "prepara",
+        "preparamos",
+        "preparáis",
+        "preparan"
+      ],
+      "perfecto": [
+        "he preparado",
+        "has preparado",
+        "ha preparado",
+        "hemos preparado",
+        "habéis preparado",
+        "han preparado"
+      ],
+      "indefinido": [
+        "preparé",
+        "preparaste",
+        "preparó",
+        "preparamos",
+        "preparasteis",
+        "prepararon"
+      ],
+      "futuro": [
+        "voy a preparar",
+        "vas a preparar",
+        "va a preparar",
+        "vamos a preparar",
+        "vais a preparar",
+        "van a preparar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "comprar",
+    "en": "to buy",
+    "zh": "买",
+    "cat": "购物",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "compro",
+        "compras",
+        "compra",
+        "compramos",
+        "compráis",
+        "compran"
+      ],
+      "perfecto": [
+        "he comprado",
+        "has comprado",
+        "ha comprado",
+        "hemos comprado",
+        "habéis comprado",
+        "han comprado"
+      ],
+      "indefinido": [
+        "compré",
+        "compraste",
+        "compró",
+        "compramos",
+        "comprasteis",
+        "compraron"
+      ],
+      "futuro": [
+        "voy a comprar",
+        "vas a comprar",
+        "va a comprar",
+        "vamos a comprar",
+        "vais a comprar",
+        "van a comprar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "pagar",
+    "en": "to pay",
+    "zh": "付钱",
+    "cat": "购物",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "pago",
+        "pagas",
+        "paga",
+        "pagamos",
+        "pagáis",
+        "pagan"
+      ],
+      "perfecto": [
+        "he pagado",
+        "has pagado",
+        "ha pagado",
+        "hemos pagado",
+        "habéis pagado",
+        "han pagado"
+      ],
+      "indefinido": [
+        "pagué",
+        "pagaste",
+        "pagó",
+        "pagamos",
+        "pagasteis",
+        "pagaron"
+      ],
+      "futuro": [
+        "voy a pagar",
+        "vas a pagar",
+        "va a pagar",
+        "vamos a pagar",
+        "vais a pagar",
+        "van a pagar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "buscar",
+    "en": "to look for",
+    "zh": "寻找",
+    "cat": "购物",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "busco",
+        "buscas",
+        "busca",
+        "buscamos",
+        "buscáis",
+        "buscan"
+      ],
+      "perfecto": [
+        "he buscado",
+        "has buscado",
+        "ha buscado",
+        "hemos buscado",
+        "habéis buscado",
+        "han buscado"
+      ],
+      "indefinido": [
+        "busqué",
+        "buscaste",
+        "buscó",
+        "buscamos",
+        "buscasteis",
+        "buscaron"
+      ],
+      "futuro": [
+        "voy a buscar",
+        "vas a buscar",
+        "va a buscar",
+        "vamos a buscar",
+        "vais a buscar",
+        "van a buscar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "necesitar",
+    "en": "to need",
+    "zh": "需要",
+    "cat": "购物",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "necesito",
+        "necesitas",
+        "necesita",
+        "necesitamos",
+        "necesitáis",
+        "necesitan"
+      ],
+      "perfecto": [
+        "he necesitado",
+        "has necesitado",
+        "ha necesitado",
+        "hemos necesitado",
+        "habéis necesitado",
+        "han necesitado"
+      ],
+      "indefinido": [
+        "necesité",
+        "necesitaste",
+        "necesitó",
+        "necesitamos",
+        "necesitasteis",
+        "necesitaron"
+      ],
+      "futuro": [
+        "voy a necesitar",
+        "vas a necesitar",
+        "va a necesitar",
+        "vamos a necesitar",
+        "vais a necesitar",
+        "van a necesitar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "vender",
+    "en": "to sell",
+    "zh": "卖",
+    "cat": "购物",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "vendo",
+        "vendes",
+        "vende",
+        "vendemos",
+        "vendéis",
+        "venden"
+      ],
+      "perfecto": [
+        "he vendido",
+        "has vendido",
+        "ha vendido",
+        "hemos vendido",
+        "habéis vendido",
+        "han vendido"
+      ],
+      "indefinido": [
+        "vendí",
+        "vendiste",
+        "vendió",
+        "vendimos",
+        "vendisteis",
+        "vendieron"
+      ],
+      "futuro": [
+        "voy a vender",
+        "vas a vender",
+        "va a vender",
+        "vamos a vender",
+        "vais a vender",
+        "van a vender"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "costar",
+    "en": "to cost",
+    "zh": "花费/价格",
+    "cat": "购物",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "cuesto",
+        "cuestas",
+        "cuesta",
+        "costamos",
+        "costáis",
+        "cuestan"
+      ],
+      "perfecto": [
+        "he costado",
+        "has costado",
+        "ha costado",
+        "hemos costado",
+        "habéis costado",
+        "han costado"
+      ],
+      "indefinido": [
+        "costé",
+        "costaste",
+        "costó",
+        "costamos",
+        "costasteis",
+        "costaron"
+      ],
+      "futuro": [
+        "voy a costar",
+        "vas a costar",
+        "va a costar",
+        "vamos a costar",
+        "vais a costar",
+        "van a costar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "elegir",
+    "en": "to choose",
+    "zh": "选择",
+    "cat": "购物",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "elijo",
+        "eliges",
+        "elige",
+        "elegimos",
+        "elegís",
+        "eligen"
+      ],
+      "perfecto": [
+        "he elegido",
+        "has elegido",
+        "ha elegido",
+        "hemos elegido",
+        "habéis elegido",
+        "han elegido"
+      ],
+      "indefinido": [
+        "elegí",
+        "elegiste",
+        "eligió",
+        "elegimos",
+        "elegisteis",
+        "eligieron"
+      ],
+      "futuro": [
+        "voy a elegir",
+        "vas a elegir",
+        "va a elegir",
+        "vamos a elegir",
+        "vais a elegir",
+        "van a elegir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "devolver",
+    "en": "to return (something)",
+    "zh": "归还/退货",
+    "cat": "购物",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "devuelvo",
+        "devuelves",
+        "devuelve",
+        "devolvemos",
+        "devolvéis",
+        "devuelven"
+      ],
+      "perfecto": [
+        "he devuelto",
+        "has devuelto",
+        "ha devuelto",
+        "hemos devuelto",
+        "habéis devuelto",
+        "han devuelto"
+      ],
+      "indefinido": [
+        "devolví",
+        "devolviste",
+        "devolvió",
+        "devolvimos",
+        "devolvisteis",
+        "devolvieron"
+      ],
+      "futuro": [
+        "voy a devolver",
+        "vas a devolver",
+        "va a devolver",
+        "vamos a devolver",
+        "vais a devolver",
+        "van a devolver"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "perfecto": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "trabajar",
+    "en": "to work",
+    "zh": "工作",
+    "cat": "职业",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "trabajo",
+        "trabajas",
+        "trabaja",
+        "trabajamos",
+        "trabajáis",
+        "trabajan"
+      ],
+      "perfecto": [
+        "he trabajado",
+        "has trabajado",
+        "ha trabajado",
+        "hemos trabajado",
+        "habéis trabajado",
+        "han trabajado"
+      ],
+      "indefinido": [
+        "trabajé",
+        "trabajaste",
+        "trabajó",
+        "trabajamos",
+        "trabajasteis",
+        "trabajaron"
+      ],
+      "futuro": [
+        "voy a trabajar",
+        "vas a trabajar",
+        "va a trabajar",
+        "vamos a trabajar",
+        "vais a trabajar",
+        "van a trabajar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "estudiar",
+    "en": "to study",
+    "zh": "学习",
+    "cat": "职业",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "estudio",
+        "estudias",
+        "estudia",
+        "estudiamos",
+        "estudiáis",
+        "estudian"
+      ],
+      "perfecto": [
+        "he estudiado",
+        "has estudiado",
+        "ha estudiado",
+        "hemos estudiado",
+        "habéis estudiado",
+        "han estudiado"
+      ],
+      "indefinido": [
+        "estudié",
+        "estudiaste",
+        "estudió",
+        "estudiamos",
+        "estudiasteis",
+        "estudiaron"
+      ],
+      "futuro": [
+        "voy a estudiar",
+        "vas a estudiar",
+        "va a estudiar",
+        "vamos a estudiar",
+        "vais a estudiar",
+        "van a estudiar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "ganar",
+    "en": "to earn / to win",
+    "zh": "赚/赢",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "gano",
+        "ganas",
+        "gana",
+        "ganamos",
+        "ganáis",
+        "ganan"
+      ],
+      "perfecto": [
+        "he ganado",
+        "has ganado",
+        "ha ganado",
+        "hemos ganado",
+        "habéis ganado",
+        "han ganado"
+      ],
+      "indefinido": [
+        "gané",
+        "ganaste",
+        "ganó",
+        "ganamos",
+        "ganasteis",
+        "ganaron"
+      ],
+      "futuro": [
+        "voy a ganar",
+        "vas a ganar",
+        "va a ganar",
+        "vamos a ganar",
+        "vais a ganar",
+        "van a ganar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "cobrar",
+    "en": "to charge / to get paid",
+    "zh": "收费/领薪",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "cobro",
+        "cobras",
+        "cobra",
+        "cobramos",
+        "cobráis",
+        "cobran"
+      ],
+      "perfecto": [
+        "he cobrado",
+        "has cobrado",
+        "ha cobrado",
+        "hemos cobrado",
+        "habéis cobrado",
+        "han cobrado"
+      ],
+      "indefinido": [
+        "cobré",
+        "cobraste",
+        "cobró",
+        "cobramos",
+        "cobrasteis",
+        "cobraron"
+      ],
+      "futuro": [
+        "voy a cobrar",
+        "vas a cobrar",
+        "va a cobrar",
+        "vamos a cobrar",
+        "vais a cobrar",
+        "van a cobrar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "contratar",
+    "en": "to hire",
+    "zh": "雇用",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "contrato",
+        "contratas",
+        "contrata",
+        "contratamos",
+        "contratáis",
+        "contratan"
+      ],
+      "perfecto": [
+        "he contratado",
+        "has contratado",
+        "ha contratado",
+        "hemos contratado",
+        "habéis contratado",
+        "han contratado"
+      ],
+      "indefinido": [
+        "contraté",
+        "contrataste",
+        "contrató",
+        "contratamos",
+        "contratasteis",
+        "contrataron"
+      ],
+      "futuro": [
+        "voy a contratar",
+        "vas a contratar",
+        "va a contratar",
+        "vamos a contratar",
+        "vais a contratar",
+        "van a contratar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "reunirse",
+    "en": "to meet / to have a meeting",
+    "zh": "开会/集合",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "reflexivo": [
+        "me reúno",
+        "te reúnes",
+        "se reúne",
+        "nos reunimos",
+        "os reunís",
+        "se reúnen"
+      ],
+      "perfecto": [
+        "me he reunido",
+        "te has reunido",
+        "se ha reunido",
+        "nos hemos reunido",
+        "os habéis reunido",
+        "se han reunido"
+      ],
+      "indefinido": [
+        "me reuní",
+        "te reuniste",
+        "se reunió",
+        "nos reunimos",
+        "os reunisteis",
+        "se reunieron"
+      ],
+      "futuro": [
+        "voy a reunirme",
+        "vas a reunirte",
+        "va a reunirse",
+        "vamos a reunirnos",
+        "vais a reuniros",
+        "van a reunirse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "inf": "jugar",
+    "en": "to play (sport/game)",
+    "zh": "玩/打（球）",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "juego",
+        "juegas",
+        "juega",
+        "jugamos",
+        "jugáis",
+        "juegan"
+      ],
+      "perfecto": [
+        "he jugado",
+        "has jugado",
+        "ha jugado",
+        "hemos jugado",
+        "habéis jugado",
+        "han jugado"
+      ],
+      "indefinido": [
+        "jugué",
+        "jugaste",
+        "jugó",
+        "jugamos",
+        "jugasteis",
+        "jugaron"
+      ],
+      "futuro": [
+        "voy a jugar",
+        "vas a jugar",
+        "va a jugar",
+        "vamos a jugar",
+        "vais a jugar",
+        "van a jugar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "escuchar",
+    "en": "to listen to (music)",
+    "zh": "听（音乐）",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "escucho",
+        "escuchas",
+        "escucha",
+        "escuchamos",
+        "escucháis",
+        "escuchan"
+      ],
+      "perfecto": [
+        "he escuchado",
+        "has escuchado",
+        "ha escuchado",
+        "hemos escuchado",
+        "habéis escuchado",
+        "han escuchado"
+      ],
+      "indefinido": [
+        "escuché",
+        "escuchaste",
+        "escuchó",
+        "escuchamos",
+        "escuchasteis",
+        "escucharon"
+      ],
+      "futuro": [
+        "voy a escuchar",
+        "vas a escuchar",
+        "va a escuchar",
+        "vamos a escuchar",
+        "vais a escuchar",
+        "van a escuchar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "bailar",
+    "en": "to dance",
+    "zh": "跳舞",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "bailo",
+        "bailas",
+        "baila",
+        "bailamos",
+        "bailáis",
+        "bailan"
+      ],
+      "perfecto": [
+        "he bailado",
+        "has bailado",
+        "ha bailado",
+        "hemos bailado",
+        "habéis bailado",
+        "han bailado"
+      ],
+      "indefinido": [
+        "bailé",
+        "bailaste",
+        "bailó",
+        "bailamos",
+        "bailasteis",
+        "bailaron"
+      ],
+      "futuro": [
+        "voy a bailar",
+        "vas a bailar",
+        "va a bailar",
+        "vamos a bailar",
+        "vais a bailar",
+        "van a bailar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "cantar",
+    "en": "to sing",
+    "zh": "唱歌",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "canto",
+        "cantas",
+        "canta",
+        "cantamos",
+        "cantáis",
+        "cantan"
+      ],
+      "perfecto": [
+        "he cantado",
+        "has cantado",
+        "ha cantado",
+        "hemos cantado",
+        "habéis cantado",
+        "han cantado"
+      ],
+      "indefinido": [
+        "canté",
+        "cantaste",
+        "cantó",
+        "cantamos",
+        "cantasteis",
+        "cantaron"
+      ],
+      "futuro": [
+        "voy a cantar",
+        "vas a cantar",
+        "va a cantar",
+        "vamos a cantar",
+        "vais a cantar",
+        "van a cantar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "tocar",
+    "en": "to play (instrument) / to touch",
+    "zh": "演奏/触摸",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "toco",
+        "tocas",
+        "toca",
+        "tocamos",
+        "tocáis",
+        "tocan"
+      ],
+      "perfecto": [
+        "he tocado",
+        "has tocado",
+        "ha tocado",
+        "hemos tocado",
+        "habéis tocado",
+        "han tocado"
+      ],
+      "indefinido": [
+        "toqué",
+        "tocaste",
+        "tocó",
+        "tocamos",
+        "tocasteis",
+        "tocaron"
+      ],
+      "futuro": [
+        "voy a tocar",
+        "vas a tocar",
+        "va a tocar",
+        "vamos a tocar",
+        "vais a tocar",
+        "van a tocar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "dibujar",
+    "en": "to draw",
+    "zh": "画画",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "dibujo",
+        "dibujas",
+        "dibuja",
+        "dibujamos",
+        "dibujáis",
+        "dibujan"
+      ],
+      "perfecto": [
+        "he dibujado",
+        "has dibujado",
+        "ha dibujado",
+        "hemos dibujado",
+        "habéis dibujado",
+        "han dibujado"
+      ],
+      "indefinido": [
+        "dibujé",
+        "dibujaste",
+        "dibujó",
+        "dibujamos",
+        "dibujasteis",
+        "dibujaron"
+      ],
+      "futuro": [
+        "voy a dibujar",
+        "vas a dibujar",
+        "va a dibujar",
+        "vamos a dibujar",
+        "vais a dibujar",
+        "van a dibujar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "nadar",
+    "en": "to swim",
+    "zh": "游泳",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "nado",
+        "nadas",
+        "nada",
+        "nadamos",
+        "nadáis",
+        "nadan"
+      ],
+      "perfecto": [
+        "he nadado",
+        "has nadado",
+        "ha nadado",
+        "hemos nadado",
+        "habéis nadado",
+        "han nadado"
+      ],
+      "indefinido": [
+        "nadé",
+        "nadaste",
+        "nadó",
+        "nadamos",
+        "nadasteis",
+        "nadaron"
+      ],
+      "futuro": [
+        "voy a nadar",
+        "vas a nadar",
+        "va a nadar",
+        "vamos a nadar",
+        "vais a nadar",
+        "van a nadar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "correr",
+    "en": "to run",
+    "zh": "跑步",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "corro",
+        "corres",
+        "corre",
+        "corremos",
+        "corréis",
+        "corren"
+      ],
+      "perfecto": [
+        "he corrido",
+        "has corrido",
+        "ha corrido",
+        "hemos corrido",
+        "habéis corrido",
+        "han corrido"
+      ],
+      "indefinido": [
+        "corrí",
+        "corriste",
+        "corrió",
+        "corrimos",
+        "corristeis",
+        "corrieron"
+      ],
+      "futuro": [
+        "voy a correr",
+        "vas a correr",
+        "va a correr",
+        "vamos a correr",
+        "vais a correr",
+        "van a correr"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "viajar",
+    "en": "to travel",
+    "zh": "旅行",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "viajo",
+        "viajas",
+        "viaja",
+        "viajamos",
+        "viajáis",
+        "viajan"
+      ],
+      "perfecto": [
+        "he viajado",
+        "has viajado",
+        "ha viajado",
+        "hemos viajado",
+        "habéis viajado",
+        "han viajado"
+      ],
+      "indefinido": [
+        "viajé",
+        "viajaste",
+        "viajó",
+        "viajamos",
+        "viajasteis",
+        "viajaron"
+      ],
+      "futuro": [
+        "voy a viajar",
+        "vas a viajar",
+        "va a viajar",
+        "vamos a viajar",
+        "vais a viajar",
+        "van a viajar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "fotografi­ar",
+    "en": "to photograph",
+    "zh": "拍照",
+    "cat": "爱好",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "fotografío",
+        "fotografías",
+        "fotografía",
+        "fotografiamos",
+        "fotografiáis",
+        "fotografían"
+      ],
+      "perfecto": [
+        "he fotografiado",
+        "has fotografiado",
+        "ha fotografiado",
+        "hemos fotografiado",
+        "habéis fotografiado",
+        "han fotografiado"
+      ],
+      "indefinido": [
+        "fotografié",
+        "fotografiaste",
+        "fotografió",
+        "fotografiamos",
+        "fotografiasteis",
+        "fotografiaron"
+      ],
+      "futuro": [
+        "voy a fotografiar",
+        "vas a fotografiar",
+        "va a fotografiar",
+        "vamos a fotografiar",
+        "vais a fotografiar",
+        "van a fotografiar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "doler",
+    "en": "to hurt / to ache",
+    "zh": "疼/痛",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "me duele",
+        "te duele",
+        "le duele",
+        "nos duele",
+        "os duele",
+        "les duele"
+      ],
+      "perfecto": [
+        "me ha dolido",
+        "te ha dolido",
+        "le ha dolido",
+        "nos ha dolido",
+        "os ha dolido",
+        "les ha dolido"
+      ],
+      "indefinido": [
+        "me dolió",
+        "te dolió",
+        "le dolió",
+        "nos dolió",
+        "os dolió",
+        "les dolió"
+      ],
+      "futuro": [
+        "me va a doler",
+        "te va a doler",
+        "le va a doler",
+        "nos va a doler",
+        "os va a doler",
+        "les va a doler"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "sentirse",
+    "en": "to feel",
+    "zh": "感觉",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me siento",
+        "te sientes",
+        "se siente",
+        "nos sentimos",
+        "os sentís",
+        "se sienten"
+      ],
+      "perfecto": [
+        "me he sentido",
+        "te has sentido",
+        "se ha sentido",
+        "nos hemos sentido",
+        "os habéis sentido",
+        "se han sentido"
+      ],
+      "indefinido": [
+        "me sentí",
+        "te sentiste",
+        "se sintió",
+        "nos sentimos",
+        "os sentisteis",
+        "se sintieron"
+      ],
+      "futuro": [
+        "voy a sentirme",
+        "vas a sentirte",
+        "va a sentirse",
+        "vamos a sentirnos",
+        "vais a sentiros",
+        "van a sentirse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "descansar",
+    "en": "to rest",
+    "zh": "休息",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "descanso",
+        "descansas",
+        "descansa",
+        "descansamos",
+        "descansáis",
+        "descansan"
+      ],
+      "perfecto": [
+        "he descansado",
+        "has descansado",
+        "ha descansado",
+        "hemos descansado",
+        "habéis descansado",
+        "han descansado"
+      ],
+      "indefinido": [
+        "descansé",
+        "descansaste",
+        "descansó",
+        "descansamos",
+        "descansasteis",
+        "descansaron"
+      ],
+      "futuro": [
+        "voy a descansar",
+        "vas a descansar",
+        "va a descansar",
+        "vamos a descansar",
+        "vais a descansar",
+        "van a descansar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "dormir",
+    "en": "to sleep",
+    "zh": "睡觉",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "duermo",
+        "duermes",
+        "duerme",
+        "dormimos",
+        "dormís",
+        "duermen"
+      ],
+      "perfecto": [
+        "he dormido",
+        "has dormido",
+        "ha dormido",
+        "hemos dormido",
+        "habéis dormido",
+        "han dormido"
+      ],
+      "indefinido": [
+        "dormí",
+        "dormiste",
+        "durmió",
+        "dormimos",
+        "dormisteis",
+        "durmieron"
+      ],
+      "futuro": [
+        "voy a dormir",
+        "vas a dormir",
+        "va a dormir",
+        "vamos a dormir",
+        "vais a dormir",
+        "van a dormir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "enfermar",
+    "en": "to get sick",
+    "zh": "生病",
+    "cat": "身体/健康",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "enfermo",
+        "enfermas",
+        "enferma",
+        "enfermamos",
+        "enfermáis",
+        "enferman"
+      ],
+      "perfecto": [
+        "he enfermado",
+        "has enfermado",
+        "ha enfermado",
+        "hemos enfermado",
+        "habéis enfermado",
+        "han enfermado"
+      ],
+      "indefinido": [
+        "enfermé",
+        "enfermaste",
+        "enfermó",
+        "enfermamos",
+        "enfermasteis",
+        "enfermaron"
+      ],
+      "futuro": [
+        "voy a enfermar",
+        "vas a enfermar",
+        "va a enfermar",
+        "vamos a enfermar",
+        "vais a enfermar",
+        "van a enfermar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "mejorar",
+    "en": "to improve / to get better",
+    "zh": "改善/好转",
+    "cat": "身体/健康",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "mejoro",
+        "mejoras",
+        "mejora",
+        "mejoramos",
+        "mejoráis",
+        "mejoran"
+      ],
+      "perfecto": [
+        "he mejorado",
+        "has mejorado",
+        "ha mejorado",
+        "hemos mejorado",
+        "habéis mejorado",
+        "han mejorado"
+      ],
+      "indefinido": [
+        "mejoré",
+        "mejoraste",
+        "mejoró",
+        "mejoramos",
+        "mejorasteis",
+        "mejoraron"
+      ],
+      "futuro": [
+        "voy a mejorar",
+        "vas a mejorar",
+        "va a mejorar",
+        "vamos a mejorar",
+        "vais a mejorar",
+        "van a mejorar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "cuidar",
+    "en": "to take care of",
+    "zh": "照顾",
+    "cat": "身体/健康",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "cuido",
+        "cuidas",
+        "cuida",
+        "cuidamos",
+        "cuidáis",
+        "cuidan"
+      ],
+      "perfecto": [
+        "he cuidado",
+        "has cuidado",
+        "ha cuidado",
+        "hemos cuidado",
+        "habéis cuidado",
+        "han cuidado"
+      ],
+      "indefinido": [
+        "cuidé",
+        "cuidaste",
+        "cuidó",
+        "cuidamos",
+        "cuidasteis",
+        "cuidaron"
+      ],
+      "futuro": [
+        "voy a cuidar",
+        "vas a cuidar",
+        "va a cuidar",
+        "vamos a cuidar",
+        "vais a cuidar",
+        "van a cuidar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "aprender",
+    "en": "to learn",
+    "zh": "学习/学会",
+    "cat": "学习",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "aprendo",
+        "aprendes",
+        "aprende",
+        "aprendemos",
+        "aprendéis",
+        "aprenden"
+      ],
+      "perfecto": [
+        "he aprendido",
+        "has aprendido",
+        "ha aprendido",
+        "hemos aprendido",
+        "habéis aprendido",
+        "han aprendido"
+      ],
+      "indefinido": [
+        "aprendí",
+        "aprendiste",
+        "aprendió",
+        "aprendimos",
+        "aprendisteis",
+        "aprendieron"
+      ],
+      "futuro": [
+        "voy a aprender",
+        "vas a aprender",
+        "va a aprender",
+        "vamos a aprender",
+        "vais a aprender",
+        "van a aprender"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "enseñar",
+    "en": "to teach",
+    "zh": "教",
+    "cat": "学习",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "enseño",
+        "enseñas",
+        "enseña",
+        "enseñamos",
+        "enseñáis",
+        "enseñan"
+      ],
+      "perfecto": [
+        "he enseñado",
+        "has enseñado",
+        "ha enseñado",
+        "hemos enseñado",
+        "habéis enseñado",
+        "han enseñado"
+      ],
+      "indefinido": [
+        "enseñé",
+        "enseñaste",
+        "enseñó",
+        "enseñamos",
+        "enseñasteis",
+        "enseñaron"
+      ],
+      "futuro": [
+        "voy a enseñar",
+        "vas a enseñar",
+        "va a enseñar",
+        "vamos a enseñar",
+        "vais a enseñar",
+        "van a enseñar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "practicar",
+    "en": "to practise",
+    "zh": "练习",
+    "cat": "学习",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "practico",
+        "practicas",
+        "practica",
+        "practicamos",
+        "practicáis",
+        "practican"
+      ],
+      "perfecto": [
+        "he practicado",
+        "has practicado",
+        "ha practicado",
+        "hemos practicado",
+        "habéis practicado",
+        "han practicado"
+      ],
+      "indefinido": [
+        "practiqué",
+        "practicaste",
+        "practicó",
+        "practicamos",
+        "practicasteis",
+        "practicaron"
+      ],
+      "futuro": [
+        "voy a practicar",
+        "vas a practicar",
+        "va a practicar",
+        "vamos a practicar",
+        "vais a practicar",
+        "van a practicar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "repasar",
+    "en": "to review / to revise",
+    "zh": "复习",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "repaso",
+        "repasas",
+        "repasa",
+        "repasamos",
+        "repasáis",
+        "repasan"
+      ],
+      "perfecto": [
+        "he repasado",
+        "has repasado",
+        "ha repasado",
+        "hemos repasado",
+        "habéis repasado",
+        "han repasado"
+      ],
+      "indefinido": [
+        "repasé",
+        "repasaste",
+        "repasó",
+        "repasamos",
+        "repasasteis",
+        "repasaron"
+      ],
+      "futuro": [
+        "voy a repasar",
+        "vas a repasar",
+        "va a repasar",
+        "vamos a repasar",
+        "vais a repasar",
+        "van a repasar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "explicar",
+    "en": "to explain",
+    "zh": "解释",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "explico",
+        "explicas",
+        "explica",
+        "explicamos",
+        "explicáis",
+        "explican"
+      ],
+      "perfecto": [
+        "he explicado",
+        "has explicado",
+        "ha explicado",
+        "hemos explicado",
+        "habéis explicado",
+        "han explicado"
+      ],
+      "indefinido": [
+        "expliqué",
+        "explicaste",
+        "explicó",
+        "explicamos",
+        "explicasteis",
+        "explicaron"
+      ],
+      "futuro": [
+        "voy a explicar",
+        "vas a explicar",
+        "va a explicar",
+        "vamos a explicar",
+        "vais a explicar",
+        "van a explicar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "comprender",
+    "en": "to understand / to comprehend",
+    "zh": "理解",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "comprendo",
+        "comprendes",
+        "comprende",
+        "comprendemos",
+        "comprendéis",
+        "comprenden"
+      ],
+      "perfecto": [
+        "he comprendido",
+        "has comprendido",
+        "ha comprendido",
+        "hemos comprendido",
+        "habéis comprendido",
+        "han comprendido"
+      ],
+      "indefinido": [
+        "comprendí",
+        "comprendiste",
+        "comprendió",
+        "comprendimos",
+        "comprendisteis",
+        "comprendieron"
+      ],
+      "futuro": [
+        "voy a comprender",
+        "vas a comprender",
+        "va a comprender",
+        "vamos a comprender",
+        "vais a comprender",
+        "van a comprender"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "llegar",
+    "en": "to arrive",
+    "zh": "到达",
+    "cat": "移动/交通",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "llego",
+        "llegas",
+        "llega",
+        "llegamos",
+        "llegáis",
+        "llegan"
+      ],
+      "perfecto": [
+        "he llegado",
+        "has llegado",
+        "ha llegado",
+        "hemos llegado",
+        "habéis llegado",
+        "han llegado"
+      ],
+      "indefinido": [
+        "llegué",
+        "llegaste",
+        "llegó",
+        "llegamos",
+        "llegasteis",
+        "llegaron"
+      ],
+      "futuro": [
+        "voy a llegar",
+        "vas a llegar",
+        "va a llegar",
+        "vamos a llegar",
+        "vais a llegar",
+        "van a llegar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "salir",
+    "en": "to leave / to go out",
+    "zh": "出发/出去",
+    "cat": "移动/交通",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "salgo",
+        "sales",
+        "sale",
+        "salimos",
+        "salís",
+        "salen"
+      ],
+      "perfecto": [
+        "he salido",
+        "has salido",
+        "ha salido",
+        "hemos salido",
+        "habéis salido",
+        "han salido"
+      ],
+      "indefinido": [
+        "salí",
+        "saliste",
+        "salió",
+        "salimos",
+        "salisteis",
+        "salieron"
+      ],
+      "futuro": [
+        "voy a salir",
+        "vas a salir",
+        "va a salir",
+        "vamos a salir",
+        "vais a salir",
+        "van a salir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "volver",
+    "en": "to return / to come back",
+    "zh": "回来/返回",
+    "cat": "移动/交通",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "vuelvo",
+        "vuelves",
+        "vuelve",
+        "volvemos",
+        "volvéis",
+        "vuelven"
+      ],
+      "perfecto": [
+        "he vuelto",
+        "has vuelto",
+        "ha vuelto",
+        "hemos vuelto",
+        "habéis vuelto",
+        "han vuelto"
+      ],
+      "indefinido": [
+        "volví",
+        "volviste",
+        "volvió",
+        "volvimos",
+        "volvisteis",
+        "volvieron"
+      ],
+      "futuro": [
+        "voy a volver",
+        "vas a volver",
+        "va a volver",
+        "vamos a volver",
+        "vais a volver",
+        "van a volver"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "perfecto": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "coger",
+    "en": "to take (transport)",
+    "zh": "乘坐/拿",
+    "cat": "移动/交通",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "cojo",
+        "coges",
+        "coge",
+        "cogemos",
+        "cogéis",
+        "cogen"
+      ],
+      "perfecto": [
+        "he cogido",
+        "has cogido",
+        "ha cogido",
+        "hemos cogido",
+        "habéis cogido",
+        "han cogido"
+      ],
+      "indefinido": [
+        "cogí",
+        "cogiste",
+        "cogió",
+        "cogimos",
+        "cogisteis",
+        "cogieron"
+      ],
+      "futuro": [
+        "voy a coger",
+        "vas a coger",
+        "va a coger",
+        "vamos a coger",
+        "vais a coger",
+        "van a coger"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "conducir",
+    "en": "to drive",
+    "zh": "开车",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "conduzco",
+        "conduces",
+        "conduce",
+        "conducimos",
+        "conducís",
+        "conducen"
+      ],
+      "perfecto": [
+        "he conducido",
+        "has conducido",
+        "ha conducido",
+        "hemos conducido",
+        "habéis conducido",
+        "han conducido"
+      ],
+      "indefinido": [
+        "conduje",
+        "condujiste",
+        "condujo",
+        "condujimos",
+        "condujisteis",
+        "condujeron"
+      ],
+      "futuro": [
+        "voy a conducir",
+        "vas a conducir",
+        "va a conducir",
+        "vamos a conducir",
+        "vais a conducir",
+        "van a conducir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "aparcar",
+    "en": "to park",
+    "zh": "停车",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "aparco",
+        "aparcas",
+        "aparca",
+        "aparcamos",
+        "aparcáis",
+        "aparcan"
+      ],
+      "perfecto": [
+        "he aparcado",
+        "has aparcado",
+        "ha aparcado",
+        "hemos aparcado",
+        "habéis aparcado",
+        "han aparcado"
+      ],
+      "indefinido": [
+        "aparqué",
+        "aparcaste",
+        "aparcó",
+        "aparcamos",
+        "aparcasteis",
+        "aparcaron"
+      ],
+      "futuro": [
+        "voy a aparcar",
+        "vas a aparcar",
+        "va a aparcar",
+        "vamos a aparcar",
+        "vais a aparcar",
+        "van a aparcar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "cruzar",
+    "en": "to cross",
+    "zh": "穿越/过马路",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "cruzo",
+        "cruzas",
+        "cruza",
+        "cruzamos",
+        "cruzáis",
+        "cruzan"
+      ],
+      "perfecto": [
+        "he cruzado",
+        "has cruzado",
+        "ha cruzado",
+        "hemos cruzado",
+        "habéis cruzado",
+        "han cruzado"
+      ],
+      "indefinido": [
+        "crucé",
+        "cruzaste",
+        "cruzó",
+        "cruzamos",
+        "cruzasteis",
+        "cruzaron"
+      ],
+      "futuro": [
+        "voy a cruzar",
+        "vas a cruzar",
+        "va a cruzar",
+        "vamos a cruzar",
+        "vais a cruzar",
+        "van a cruzar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "levantarse",
+    "en": "to get up",
+    "zh": "起床",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me levanto",
+        "te levantas",
+        "se levanta",
+        "nos levantamos",
+        "os levantáis",
+        "se levantan"
+      ],
+      "perfecto": [
+        "me he levantado",
+        "te has levantado",
+        "se ha levantado",
+        "nos hemos levantado",
+        "os habéis levantado",
+        "se han levantado"
+      ],
+      "indefinido": [
+        "me levanté",
+        "te levantaste",
+        "se levantó",
+        "nos levantamos",
+        "os levantasteis",
+        "se levantaron"
+      ],
+      "futuro": [
+        "voy a levantarme",
+        "vas a levantarte",
+        "va a levantarse",
+        "vamos a levantarnos",
+        "vais a levantaros",
+        "van a levantarse"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "acostarse",
+    "en": "to go to bed",
+    "zh": "睡觉/躺下",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me acuesto",
+        "te acuestas",
+        "se acuesta",
+        "nos acostamos",
+        "os acostáis",
+        "se acuestan"
+      ],
+      "perfecto": [
+        "me he acostado",
+        "te has acostado",
+        "se ha acostado",
+        "nos hemos acostado",
+        "os habéis acostado",
+        "se han acostado"
+      ],
+      "indefinido": [
+        "me acosté",
+        "te acostaste",
+        "se acostó",
+        "nos acostamos",
+        "os acostasteis",
+        "se acostaron"
+      ],
+      "futuro": [
+        "voy a acostarme",
+        "vas a acostarte",
+        "va a acostarse",
+        "vamos a acostarnos",
+        "vais a acostaros",
+        "van a acostarse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "ducharse",
+    "en": "to shower",
+    "zh": "洗澡",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me ducho",
+        "te duchas",
+        "se ducha",
+        "nos duchamos",
+        "os ducháis",
+        "se duchan"
+      ],
+      "perfecto": [
+        "me he duchado",
+        "te has duchado",
+        "se ha duchado",
+        "nos hemos duchado",
+        "os habéis duchado",
+        "se han duchado"
+      ],
+      "indefinido": [
+        "me duché",
+        "te duchaste",
+        "se duchó",
+        "nos duchamos",
+        "os duchasteis",
+        "se ducharon"
+      ],
+      "futuro": [
+        "voy a ducharme",
+        "vas a ducharte",
+        "va a ducharse",
+        "vamos a ducharnos",
+        "vais a ducharos",
+        "van a ducharse"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "vestirse",
+    "en": "to get dressed",
+    "zh": "穿衣服",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me visto",
+        "te vistes",
+        "se viste",
+        "nos vestimos",
+        "os vestís",
+        "se visten"
+      ],
+      "perfecto": [
+        "me he vestido",
+        "te has vestido",
+        "se ha vestido",
+        "nos hemos vestido",
+        "os habéis vestido",
+        "se han vestido"
+      ],
+      "indefinido": [
+        "me vestí",
+        "te vestiste",
+        "se vistió",
+        "nos vestimos",
+        "os vestisteis",
+        "se vistieron"
+      ],
+      "futuro": [
+        "voy a vestirme",
+        "vas a vestirte",
+        "va a vestirse",
+        "vamos a vestirnos",
+        "vais a vestiros",
+        "van a vestirse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "despertarse",
+    "en": "to wake up",
+    "zh": "醒来",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me despierto",
+        "te despiertas",
+        "se despierta",
+        "nos despertamos",
+        "os despertáis",
+        "se despiertan"
+      ],
+      "perfecto": [
+        "me he despertado",
+        "te has despertado",
+        "se ha despertado",
+        "nos hemos despertado",
+        "os habéis despertado",
+        "se han despertado"
+      ],
+      "indefinido": [
+        "me desperté",
+        "te despertaste",
+        "se despertó",
+        "nos despertamos",
+        "os despertasteis",
+        "se despertaron"
+      ],
+      "futuro": [
+        "voy a despertarme",
+        "vas a despertarte",
+        "va a despertarse",
+        "vamos a despertarnos",
+        "vais a despertaros",
+        "van a despertarse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "llamarse",
+    "en": "to be called / named",
+    "zh": "叫做",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me llamo",
+        "te llamas",
+        "se llama",
+        "nos llamamos",
+        "os llamáis",
+        "se llaman"
+      ],
+      "perfecto": [
+        "me he llamado",
+        "te has llamado",
+        "se ha llamado",
+        "nos hemos llamado",
+        "os habéis llamado",
+        "se han llamado"
+      ],
+      "indefinido": [
+        "me llamé",
+        "te llamaste",
+        "se llamó",
+        "nos llamamos",
+        "os llamasteis",
+        "se llamaron"
+      ],
+      "futuro": [
+        "voy a llamarme",
+        "vas a llamarte",
+        "va a llamarse",
+        "vamos a llamarnos",
+        "vais a llamaros",
+        "van a llamarse"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "quedarse",
+    "en": "to stay",
+    "zh": "留下",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "reflexivo": [
+        "me quedo",
+        "te quedas",
+        "se queda",
+        "nos quedamos",
+        "os quedáis",
+        "se quedan"
+      ],
+      "perfecto": [
+        "me he quedado",
+        "te has quedado",
+        "se ha quedado",
+        "nos hemos quedado",
+        "os habéis quedado",
+        "se han quedado"
+      ],
+      "indefinido": [
+        "me quedé",
+        "te quedaste",
+        "se quedó",
+        "nos quedamos",
+        "os quedasteis",
+        "se quedaron"
+      ],
+      "futuro": [
+        "voy a quedarme",
+        "vas a quedarte",
+        "va a quedarse",
+        "vamos a quedarnos",
+        "vais a quedaros",
+        "van a quedarse"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "ponerse",
+    "en": "to put on (clothes) / to become",
+    "zh": "穿上/变得",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "reflexivo": [
+        "me pongo",
+        "te pones",
+        "se pone",
+        "nos ponemos",
+        "os ponéis",
+        "se ponen"
+      ],
+      "perfecto": [
+        "me he puesto",
+        "te has puesto",
+        "se ha puesto",
+        "nos hemos puesto",
+        "os habéis puesto",
+        "se han puesto"
+      ],
+      "indefinido": [
+        "me puse",
+        "te pusiste",
+        "se puso",
+        "nos pusimos",
+        "os pusisteis",
+        "se pusieron"
+      ],
+      "futuro": [
+        "voy a ponerme",
+        "vas a ponerte",
+        "va a ponerse",
+        "vamos a ponernos",
+        "vais a poneros",
+        "van a ponerse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "irse",
+    "en": "to leave / to go away",
+    "zh": "离开",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "reflexivo": [
+        "me voy",
+        "te vas",
+        "se va",
+        "nos vamos",
+        "os vais",
+        "se van"
+      ],
+      "perfecto": [
+        "me he ido",
+        "te has ido",
+        "se ha ido",
+        "nos hemos ido",
+        "os habéis ido",
+        "se han ido"
+      ],
+      "indefinido": [
+        "me fui",
+        "te fuiste",
+        "se fue",
+        "nos fuimos",
+        "os fuisteis",
+        "se fueron"
+      ],
+      "futuro": [
+        "voy a irme",
+        "vas a irte",
+        "va a irse",
+        "vamos a irnos",
+        "vais a iros",
+        "van a irse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "indefinido": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "habitar",
+    "en": "to inhabit / to reside",
+    "zh": "居住",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "habito",
+        "habitas",
+        "habita",
+        "habitamos",
+        "habitáis",
+        "habitan"
+      ],
+      "perfecto": [
+        "he habitado",
+        "has habitado",
+        "ha habitado",
+        "hemos habitado",
+        "habéis habitado",
+        "han habitado"
+      ],
+      "indefinido": [
+        "habité",
+        "habitaste",
+        "habitó",
+        "habitamos",
+        "habitasteis",
+        "habitaron"
+      ],
+      "futuro": [
+        "voy a habitar",
+        "vas a habitar",
+        "va a habitar",
+        "vamos a habitar",
+        "vais a habitar",
+        "van a habitar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "desear",
+    "en": "to wish / to desire",
+    "zh": "希望/渴望",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "deseo",
+        "deseas",
+        "desea",
+        "deseamos",
+        "deseáis",
+        "desean"
+      ],
+      "perfecto": [
+        "he deseado",
+        "has deseado",
+        "ha deseado",
+        "hemos deseado",
+        "habéis deseado",
+        "han deseado"
+      ],
+      "indefinido": [
+        "deseé",
+        "deseaste",
+        "deseó",
+        "deseamos",
+        "deseasteis",
+        "desearon"
+      ],
+      "futuro": [
+        "voy a desear",
+        "vas a desear",
+        "va a desear",
+        "vamos a desear",
+        "vais a desear",
+        "van a desear"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "permitir",
+    "en": "to allow / to permit",
+    "zh": "允许",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "permito",
+        "permites",
+        "permite",
+        "permitimos",
+        "permitís",
+        "permiten"
+      ],
+      "perfecto": [
+        "he permitido",
+        "has permitido",
+        "ha permitido",
+        "hemos permitido",
+        "habéis permitido",
+        "han permitido"
+      ],
+      "indefinido": [
+        "permití",
+        "permitiste",
+        "permitió",
+        "permitimos",
+        "permitisteis",
+        "permitieron"
+      ],
+      "futuro": [
+        "voy a permitir",
+        "vas a permitir",
+        "va a permitir",
+        "vamos a permitir",
+        "vais a permitir",
+        "van a permitir"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "mostrar",
+    "en": "to show",
+    "zh": "展示/出示",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "muestro",
+        "muestras",
+        "muestra",
+        "mostramos",
+        "mostráis",
+        "muestran"
+      ],
+      "perfecto": [
+        "he mostrado",
+        "has mostrado",
+        "ha mostrado",
+        "hemos mostrado",
+        "habéis mostrado",
+        "han mostrado"
+      ],
+      "indefinido": [
+        "mostré",
+        "mostraste",
+        "mostró",
+        "mostramos",
+        "mostrasteis",
+        "mostraron"
+      ],
+      "futuro": [
+        "voy a mostrar",
+        "vas a mostrar",
+        "va a mostrar",
+        "vamos a mostrar",
+        "vais a mostrar",
+        "van a mostrar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "recibir",
+    "en": "to receive",
+    "zh": "收到/接受",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "recibo",
+        "recibes",
+        "recibe",
+        "recibimos",
+        "recibís",
+        "reciben"
+      ],
+      "perfecto": [
+        "he recibido",
+        "has recibido",
+        "ha recibido",
+        "hemos recibido",
+        "habéis recibido",
+        "han recibido"
+      ],
+      "indefinido": [
+        "recibí",
+        "recibiste",
+        "recibió",
+        "recibimos",
+        "recibisteis",
+        "recibieron"
+      ],
+      "futuro": [
+        "voy a recibir",
+        "vas a recibir",
+        "va a recibir",
+        "vamos a recibir",
+        "vais a recibir",
+        "van a recibir"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "enviar",
+    "en": "to send",
+    "zh": "发送",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "envío",
+        "envías",
+        "envía",
+        "enviamos",
+        "enviáis",
+        "envían"
+      ],
+      "perfecto": [
+        "he enviado",
+        "has enviado",
+        "ha enviado",
+        "hemos enviado",
+        "habéis enviado",
+        "han enviado"
+      ],
+      "indefinido": [
+        "envié",
+        "enviaste",
+        "envió",
+        "enviamos",
+        "enviasteis",
+        "enviaron"
+      ],
+      "futuro": [
+        "voy a enviar",
+        "vas a enviar",
+        "va a enviar",
+        "vamos a enviar",
+        "vais a enviar",
+        "van a enviar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "compartir",
+    "en": "to share",
+    "zh": "分享",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "comparto",
+        "compartes",
+        "comparte",
+        "compartimos",
+        "compartís",
+        "comparten"
+      ],
+      "perfecto": [
+        "he compartido",
+        "has compartido",
+        "ha compartido",
+        "hemos compartido",
+        "habéis compartido",
+        "han compartido"
+      ],
+      "indefinido": [
+        "compartí",
+        "compartiste",
+        "compartió",
+        "compartimos",
+        "compartisteis",
+        "compartieron"
+      ],
+      "futuro": [
+        "voy a compartir",
+        "vas a compartir",
+        "va a compartir",
+        "vamos a compartir",
+        "vais a compartir",
+        "van a compartir"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "organizar",
+    "en": "to organise",
+    "zh": "组织/整理",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "organizo",
+        "organizas",
+        "organiza",
+        "organizamos",
+        "organizáis",
+        "organizan"
+      ],
+      "perfecto": [
+        "he organizado",
+        "has organizado",
+        "ha organizado",
+        "hemos organizado",
+        "habéis organizado",
+        "han organizado"
+      ],
+      "indefinido": [
+        "organicé",
+        "organizaste",
+        "organizó",
+        "organizamos",
+        "organizasteis",
+        "organizaron"
+      ],
+      "futuro": [
+        "voy a organizar",
+        "vas a organizar",
+        "va a organizar",
+        "vamos a organizar",
+        "vais a organizar",
+        "van a organizar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "planear",
+    "en": "to plan",
+    "zh": "计划",
+    "cat": "日常动词",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "planeo",
+        "planeas",
+        "planea",
+        "planeamos",
+        "planeáis",
+        "planean"
+      ],
+      "perfecto": [
+        "he planeado",
+        "has planeado",
+        "ha planeado",
+        "hemos planeado",
+        "habéis planeado",
+        "han planeado"
+      ],
+      "indefinido": [
+        "planeé",
+        "planeaste",
+        "planeó",
+        "planeamos",
+        "planeasteis",
+        "planearon"
+      ],
+      "futuro": [
+        "voy a planear",
+        "vas a planear",
+        "va a planear",
+        "vamos a planear",
+        "vais a planear",
+        "van a planear"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "visitar",
+    "en": "to visit",
+    "zh": "参观/拜访",
+    "cat": "日常动词",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "visito",
+        "visitas",
+        "visita",
+        "visitamos",
+        "visitáis",
+        "visitan"
+      ],
+      "perfecto": [
+        "he visitado",
+        "has visitado",
+        "ha visitado",
+        "hemos visitado",
+        "habéis visitado",
+        "han visitado"
+      ],
+      "indefinido": [
+        "visité",
+        "visitaste",
+        "visitó",
+        "visitamos",
+        "visitasteis",
+        "visitaron"
+      ],
+      "futuro": [
+        "voy a visitar",
+        "vas a visitar",
+        "va a visitar",
+        "vamos a visitar",
+        "vais a visitar",
+        "van a visitar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "merendar",
+    "en": "to have a snack",
+    "zh": "吃点心",
+    "cat": "饮食",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "meriendo",
+        "meriendas",
+        "merienda",
+        "merendamos",
+        "merendáis",
+        "meriendan"
+      ],
+      "perfecto": [
+        "he merendado",
+        "has merendado",
+        "ha merendado",
+        "hemos merendado",
+        "habéis merendado",
+        "han merendado"
+      ],
+      "indefinido": [
+        "merrendé",
+        "merendaste",
+        "merendó",
+        "merendamos",
+        "merendasteis",
+        "merendaron"
+      ],
+      "futuro": [
+        "voy a merendar",
+        "vas a merendar",
+        "va a merendar",
+        "vamos a merendar",
+        "vais a merendar",
+        "van a merendar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "saborear",
+    "en": "to savour / to taste",
+    "zh": "品尝/细品",
+    "cat": "饮食",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "saboreo",
+        "saboreas",
+        "saborea",
+        "saboreamos",
+        "saboreáis",
+        "saborean"
+      ],
+      "perfecto": [
+        "he saboreado",
+        "has saboreado",
+        "ha saboreado",
+        "hemos saboreado",
+        "habéis saboreado",
+        "han saboreado"
+      ],
+      "indefinido": [
+        "saboreé",
+        "saboreaste",
+        "saboreó",
+        "saboreamos",
+        "saboreasteis",
+        "saborearon"
+      ],
+      "futuro": [
+        "voy a saborear",
+        "vas a saborear",
+        "va a saborear",
+        "vamos a saborear",
+        "vais a saborear",
+        "van a saborear"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "invitar",
+    "en": "to invite / to treat (pay)",
+    "zh": "邀请/请客",
+    "cat": "饮食",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "invito",
+        "invitas",
+        "invita",
+        "invitamos",
+        "invitáis",
+        "invitan"
+      ],
+      "perfecto": [
+        "he invitado",
+        "has invitado",
+        "ha invitado",
+        "hemos invitado",
+        "habéis invitado",
+        "han invitado"
+      ],
+      "indefinido": [
+        "invité",
+        "invitaste",
+        "invitó",
+        "invitamos",
+        "invitasteis",
+        "invitaron"
+      ],
+      "futuro": [
+        "voy a invitar",
+        "vas a invitar",
+        "va a invitar",
+        "vamos a invitar",
+        "vais a invitar",
+        "van a invitar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "hervir",
+    "en": "to boil",
+    "zh": "煮沸",
+    "cat": "饮食",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "hiervo",
+        "hierves",
+        "hierve",
+        "hervimos",
+        "hervís",
+        "hierven"
+      ],
+      "perfecto": [
+        "he hervido",
+        "has hervido",
+        "ha hervido",
+        "hemos hervido",
+        "habéis hervido",
+        "han hervido"
+      ],
+      "indefinido": [
+        "herví",
+        "herviste",
+        "hirvió",
+        "hervimos",
+        "hervisteis",
+        "hirvieron"
+      ],
+      "futuro": [
+        "voy a hervir",
+        "vas a hervir",
+        "va a hervir",
+        "vamos a hervir",
+        "vais a hervir",
+        "van a hervir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "indefinido": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "freír",
+    "en": "to fry",
+    "zh": "油炸",
+    "cat": "饮食",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "frío",
+        "fríes",
+        "fríe",
+        "freímos",
+        "freís",
+        "fríen"
+      ],
+      "perfecto": [
+        "he frito",
+        "has frito",
+        "ha frito",
+        "hemos frito",
+        "habéis frito",
+        "han frito"
+      ],
+      "indefinido": [
+        "freí",
+        "freíste",
+        "frió",
+        "freímos",
+        "freísteis",
+        "frieron"
+      ],
+      "futuro": [
+        "voy a freír",
+        "vas a freír",
+        "va a freír",
+        "vamos a freír",
+        "vais a freír",
+        "van a freír"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "perfecto": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "gastar",
+    "en": "to spend (money)",
+    "zh": "花钱",
+    "cat": "购物",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "gasto",
+        "gastas",
+        "gasta",
+        "gastamos",
+        "gastáis",
+        "gastan"
+      ],
+      "perfecto": [
+        "he gastado",
+        "has gastado",
+        "ha gastado",
+        "hemos gastado",
+        "habéis gastado",
+        "han gastado"
+      ],
+      "indefinido": [
+        "gasté",
+        "gastaste",
+        "gastó",
+        "gastamos",
+        "gastasteis",
+        "gastaron"
+      ],
+      "futuro": [
+        "voy a gastar",
+        "vas a gastar",
+        "va a gastar",
+        "vamos a gastar",
+        "vais a gastar",
+        "van a gastar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "ahorrar",
+    "en": "to save (money)",
+    "zh": "省钱/存钱",
+    "cat": "购物",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "ahorro",
+        "ahorras",
+        "ahorra",
+        "ahorramos",
+        "ahorráis",
+        "ahorran"
+      ],
+      "perfecto": [
+        "he ahorrado",
+        "has ahorrado",
+        "ha ahorrado",
+        "hemos ahorrado",
+        "habéis ahorrado",
+        "han ahorrado"
+      ],
+      "indefinido": [
+        "ahorré",
+        "ahorraste",
+        "ahorró",
+        "ahorramos",
+        "ahorrasteis",
+        "ahorraron"
+      ],
+      "futuro": [
+        "voy a ahorrar",
+        "vas a ahorrar",
+        "va a ahorrar",
+        "vamos a ahorrar",
+        "vais a ahorrar",
+        "van a ahorrar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "probarse",
+    "en": "to try on (clothes)",
+    "zh": "试穿",
+    "cat": "购物",
+    "level": "A2",
+    "forms": {
+      "reflexivo": [
+        "me pruebo",
+        "te pruebas",
+        "se prueba",
+        "nos probamos",
+        "os probáis",
+        "se prueban"
+      ],
+      "perfecto": [
+        "me he probado",
+        "te has probado",
+        "se ha probado",
+        "nos hemos probado",
+        "os habéis probado",
+        "se han probado"
+      ],
+      "indefinido": [
+        "me probé",
+        "te probaste",
+        "se probó",
+        "nos probamos",
+        "os probasteis",
+        "se probaron"
+      ],
+      "futuro": [
+        "voy a probarme",
+        "vas a probarte",
+        "va a probarse",
+        "vamos a probarnos",
+        "vais a probaros",
+        "van a probarse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "diseñar",
+    "en": "to design",
+    "zh": "设计",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "diseño",
+        "diseñas",
+        "diseña",
+        "diseñamos",
+        "diseñáis",
+        "diseñan"
+      ],
+      "perfecto": [
+        "he diseñado",
+        "has diseñado",
+        "ha diseñado",
+        "hemos diseñado",
+        "habéis diseñado",
+        "han diseñado"
+      ],
+      "indefinido": [
+        "diseñé",
+        "diseñaste",
+        "diseñó",
+        "diseñamos",
+        "diseñasteis",
+        "diseñaron"
+      ],
+      "futuro": [
+        "voy a diseñar",
+        "vas a diseñar",
+        "va a diseñar",
+        "vamos a diseñar",
+        "vais a diseñar",
+        "van a diseñar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "programar",
+    "en": "to programme / to code",
+    "zh": "编程",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "programo",
+        "programas",
+        "programa",
+        "programamos",
+        "programáis",
+        "programan"
+      ],
+      "perfecto": [
+        "he programado",
+        "has programado",
+        "ha programado",
+        "hemos programado",
+        "habéis programado",
+        "han programado"
+      ],
+      "indefinido": [
+        "programé",
+        "programaste",
+        "programó",
+        "programamos",
+        "programasteis",
+        "programaron"
+      ],
+      "futuro": [
+        "voy a programar",
+        "vas a programar",
+        "va a programar",
+        "vamos a programar",
+        "vais a programar",
+        "van a programar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "presentar",
+    "en": "to present / to introduce",
+    "zh": "介绍/展示",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "presento",
+        "presentas",
+        "presenta",
+        "presentamos",
+        "presentáis",
+        "presentan"
+      ],
+      "perfecto": [
+        "he presentado",
+        "has presentado",
+        "ha presentado",
+        "hemos presentado",
+        "habéis presentado",
+        "han presentado"
+      ],
+      "indefinido": [
+        "presenté",
+        "presentaste",
+        "presentó",
+        "presentamos",
+        "presentasteis",
+        "presentaron"
+      ],
+      "futuro": [
+        "voy a presentar",
+        "vas a presentar",
+        "va a presentar",
+        "vamos a presentar",
+        "vais a presentar",
+        "van a presentar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "dirigir",
+    "en": "to manage / to direct",
+    "zh": "管理/领导",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "dirijo",
+        "diriges",
+        "dirige",
+        "dirigimos",
+        "dirigís",
+        "dirigen"
+      ],
+      "perfecto": [
+        "he dirigido",
+        "has dirigido",
+        "ha dirigido",
+        "hemos dirigido",
+        "habéis dirigido",
+        "han dirigido"
+      ],
+      "indefinido": [
+        "dirigí",
+        "dirigiste",
+        "dirigió",
+        "dirigimos",
+        "dirigisteis",
+        "dirigieron"
+      ],
+      "futuro": [
+        "voy a dirigir",
+        "vas a dirigir",
+        "va a dirigir",
+        "vamos a dirigir",
+        "vais a dirigir",
+        "van a dirigir"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "atender",
+    "en": "to attend to / to serve",
+    "zh": "接待/服务",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "atiendo",
+        "atiendes",
+        "atiende",
+        "atendemos",
+        "atendéis",
+        "atienden"
+      ],
+      "perfecto": [
+        "he atendido",
+        "has atendido",
+        "ha atendido",
+        "hemos atendido",
+        "habéis atendido",
+        "han atendido"
+      ],
+      "indefinido": [
+        "atendí",
+        "atendiste",
+        "atendió",
+        "atendimos",
+        "atendisteis",
+        "atendieron"
+      ],
+      "futuro": [
+        "voy a atender",
+        "vas a atender",
+        "va a atender",
+        "vamos a atender",
+        "vais a atender",
+        "van a atender"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "firmar",
+    "en": "to sign",
+    "zh": "签名",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "firmo",
+        "firmas",
+        "firma",
+        "firmamos",
+        "firmáis",
+        "firman"
+      ],
+      "perfecto": [
+        "he firmado",
+        "has firmado",
+        "ha firmado",
+        "hemos firmado",
+        "habéis firmado",
+        "han firmado"
+      ],
+      "indefinido": [
+        "firmé",
+        "firmaste",
+        "firmó",
+        "firmamos",
+        "firmasteis",
+        "firmaron"
+      ],
+      "futuro": [
+        "voy a firmar",
+        "vas a firmar",
+        "va a firmar",
+        "vamos a firmar",
+        "vais a firmar",
+        "van a firmar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "colaborar",
+    "en": "to collaborate",
+    "zh": "合作",
+    "cat": "职业",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "colaboro",
+        "colaboras",
+        "colabora",
+        "colaboramos",
+        "colaboráis",
+        "colaboran"
+      ],
+      "perfecto": [
+        "he colaborado",
+        "has colaborado",
+        "ha colaborado",
+        "hemos colaborado",
+        "habéis colaborado",
+        "han colaborado"
+      ],
+      "indefinido": [
+        "colaboré",
+        "colaboraste",
+        "colaboró",
+        "colaboramos",
+        "colaborasteis",
+        "colaboraron"
+      ],
+      "futuro": [
+        "voy a colaborar",
+        "vas a colaborar",
+        "va a colaborar",
+        "vamos a colaborar",
+        "vais a colaborar",
+        "van a colaborar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "pintar",
+    "en": "to paint",
+    "zh": "绘画",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "pinto",
+        "pintas",
+        "pinta",
+        "pintamos",
+        "pintáis",
+        "pintan"
+      ],
+      "perfecto": [
+        "he pintado",
+        "has pintado",
+        "ha pintado",
+        "hemos pintado",
+        "habéis pintado",
+        "han pintado"
+      ],
+      "indefinido": [
+        "pinté",
+        "pintaste",
+        "pintó",
+        "pintamos",
+        "pintasteis",
+        "pintaron"
+      ],
+      "futuro": [
+        "voy a pintar",
+        "vas a pintar",
+        "va a pintar",
+        "vamos a pintar",
+        "vais a pintar",
+        "van a pintar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "caminar",
+    "en": "to walk / to hike",
+    "zh": "走路/徒步",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "camino",
+        "caminas",
+        "camina",
+        "caminamos",
+        "camináis",
+        "caminan"
+      ],
+      "perfecto": [
+        "he caminado",
+        "has caminado",
+        "ha caminado",
+        "hemos caminado",
+        "habéis caminado",
+        "han caminado"
+      ],
+      "indefinido": [
+        "caminé",
+        "caminaste",
+        "caminó",
+        "caminamos",
+        "caminasteis",
+        "caminaron"
+      ],
+      "futuro": [
+        "voy a caminar",
+        "vas a caminar",
+        "va a caminar",
+        "vamos a caminar",
+        "vais a caminar",
+        "van a caminar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "montar",
+    "en": "to ride (bike/horse)",
+    "zh": "骑（自行车/马）",
+    "cat": "爱好",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "monto",
+        "montas",
+        "monta",
+        "montamos",
+        "montáis",
+        "montan"
+      ],
+      "perfecto": [
+        "he montado",
+        "has montado",
+        "ha montado",
+        "hemos montado",
+        "habéis montado",
+        "han montado"
+      ],
+      "indefinido": [
+        "monté",
+        "montaste",
+        "montó",
+        "montamos",
+        "montasteis",
+        "montaron"
+      ],
+      "futuro": [
+        "voy a montar",
+        "vas a montar",
+        "va a montar",
+        "vamos a montar",
+        "vais a montar",
+        "van a montar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "coleccionar",
+    "en": "to collect",
+    "zh": "收藏/收集",
+    "cat": "爱好",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "colecciono",
+        "coleccionas",
+        "colecciona",
+        "coleccionamos",
+        "coleccionáis",
+        "coleccionan"
+      ],
+      "perfecto": [
+        "he coleccionado",
+        "has coleccionado",
+        "ha coleccionado",
+        "hemos coleccionado",
+        "habéis coleccionado",
+        "han coleccionado"
+      ],
+      "indefinido": [
+        "coleccioné",
+        "coleccionaste",
+        "coleccionó",
+        "coleccionamos",
+        "coleccionasteis",
+        "coleccionaron"
+      ],
+      "futuro": [
+        "voy a coleccionar",
+        "vas a coleccionar",
+        "va a coleccionar",
+        "vamos a coleccionar",
+        "vais a coleccionar",
+        "van a coleccionar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "acampar",
+    "en": "to camp",
+    "zh": "露营",
+    "cat": "爱好",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "acampo",
+        "acampas",
+        "acampa",
+        "acampamos",
+        "acampáis",
+        "acampan"
+      ],
+      "perfecto": [
+        "he acampado",
+        "has acampado",
+        "ha acampado",
+        "hemos acampado",
+        "habéis acampado",
+        "han acampado"
+      ],
+      "indefinido": [
+        "acampé",
+        "acampaste",
+        "acampó",
+        "acampamos",
+        "acampasteis",
+        "acamparon"
+      ],
+      "futuro": [
+        "voy a acampar",
+        "vas a acampar",
+        "va a acampar",
+        "vamos a acampar",
+        "vais a acampar",
+        "van a acampar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "respirar",
+    "en": "to breathe",
+    "zh": "呼吸",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "respiro",
+        "respiras",
+        "respira",
+        "respiramos",
+        "respiráis",
+        "respiran"
+      ],
+      "perfecto": [
+        "he respirado",
+        "has respirado",
+        "ha respirado",
+        "hemos respirado",
+        "habéis respirado",
+        "han respirado"
+      ],
+      "indefinido": [
+        "respiré",
+        "respiraste",
+        "respiró",
+        "respiramos",
+        "respirasteis",
+        "respiraron"
+      ],
+      "futuro": [
+        "voy a respirar",
+        "vas a respirar",
+        "va a respirar",
+        "vamos a respirar",
+        "vais a respirar",
+        "van a respirar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "curar",
+    "en": "to cure / to heal",
+    "zh": "治愈",
+    "cat": "身体/健康",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "curo",
+        "curas",
+        "cura",
+        "curamos",
+        "curáis",
+        "curan"
+      ],
+      "perfecto": [
+        "he curado",
+        "has curado",
+        "ha curado",
+        "hemos curado",
+        "habéis curado",
+        "han curado"
+      ],
+      "indefinido": [
+        "curé",
+        "curaste",
+        "curó",
+        "curamos",
+        "curasteis",
+        "curaron"
+      ],
+      "futuro": [
+        "voy a curar",
+        "vas a curar",
+        "va a curar",
+        "vamos a curar",
+        "vais a curar",
+        "van a curar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "operar",
+    "en": "to operate (surgery)",
+    "zh": "手术",
+    "cat": "身体/健康",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "opero",
+        "operas",
+        "opera",
+        "operamos",
+        "operáis",
+        "operan"
+      ],
+      "perfecto": [
+        "he operado",
+        "has operado",
+        "ha operado",
+        "hemos operado",
+        "habéis operado",
+        "han operado"
+      ],
+      "indefinido": [
+        "operé",
+        "operaste",
+        "operó",
+        "operamos",
+        "operasteis",
+        "operaron"
+      ],
+      "futuro": [
+        "voy a operar",
+        "vas a operar",
+        "va a operar",
+        "vamos a operar",
+        "vais a operar",
+        "van a operar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "bañarse",
+    "en": "to have a bath / to bathe",
+    "zh": "洗澡（泡澡）",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me baño",
+        "te bañas",
+        "se baña",
+        "nos bañamos",
+        "os bañáis",
+        "se bañan"
+      ],
+      "perfecto": [
+        "me he bañado",
+        "te has bañado",
+        "se ha bañado",
+        "nos hemos bañado",
+        "os habéis bañado",
+        "se han bañado"
+      ],
+      "indefinido": [
+        "me bañé",
+        "te bañaste",
+        "se bañó",
+        "nos bañamos",
+        "os bañasteis",
+        "se bañaron"
+      ],
+      "futuro": [
+        "voy a bañarme",
+        "vas a bañarte",
+        "va a bañarse",
+        "vamos a bañarnos",
+        "vais a bañaros",
+        "van a bañarse"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "peinarse",
+    "en": "to comb one's hair",
+    "zh": "梳头",
+    "cat": "身体/健康",
+    "level": "A1",
+    "forms": {
+      "reflexivo": [
+        "me peino",
+        "te peinas",
+        "se peina",
+        "nos peinamos",
+        "os peináis",
+        "se peinan"
+      ],
+      "perfecto": [
+        "me he peinado",
+        "te has peinado",
+        "se ha peinado",
+        "nos hemos peinado",
+        "os habéis peinado",
+        "se han peinado"
+      ],
+      "indefinido": [
+        "me peiné",
+        "te peinaste",
+        "se peinó",
+        "nos peinamos",
+        "os peinasteis",
+        "se peinaron"
+      ],
+      "futuro": [
+        "voy a peinarme",
+        "vas a peinarte",
+        "va a peinarse",
+        "vamos a peinarnos",
+        "vais a peinaos",
+        "van a peinarse"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "maquillarse",
+    "en": "to put on make-up",
+    "zh": "化妆",
+    "cat": "身体/健康",
+    "level": "A2",
+    "forms": {
+      "reflexivo": [
+        "me maquillo",
+        "te maquillas",
+        "se maquilla",
+        "nos maquillamos",
+        "os maquilláis",
+        "se maquillan"
+      ],
+      "perfecto": [
+        "me he maquillado",
+        "te has maquillado",
+        "se ha maquillado",
+        "nos hemos maquillado",
+        "os habéis maquillado",
+        "se han maquillado"
+      ],
+      "indefinido": [
+        "me maquillé",
+        "te maquillaste",
+        "se maquilló",
+        "nos maquillamos",
+        "os maquillasteis",
+        "se maquillaron"
+      ],
+      "futuro": [
+        "voy a maquillarme",
+        "vas a maquillarte",
+        "va a maquillarse",
+        "vamos a maquillarnos",
+        "vais a maquillaros",
+        "van a maquillarse"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "investigar",
+    "en": "to research / to investigate",
+    "zh": "研究/调查",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "investigo",
+        "investigas",
+        "investiga",
+        "investigamos",
+        "investigáis",
+        "investigan"
+      ],
+      "perfecto": [
+        "he investigado",
+        "has investigado",
+        "ha investigado",
+        "hemos investigado",
+        "habéis investigado",
+        "han investigado"
+      ],
+      "indefinido": [
+        "investigué",
+        "investigaste",
+        "investigó",
+        "investigamos",
+        "investigasteis",
+        "investigaron"
+      ],
+      "futuro": [
+        "voy a investigar",
+        "vas a investigar",
+        "va a investigar",
+        "vamos a investigar",
+        "vais a investigar",
+        "van a investigar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "memorizar",
+    "en": "to memorise",
+    "zh": "记忆/背",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "memorizo",
+        "memorizas",
+        "memoriza",
+        "memorizamos",
+        "memorizáis",
+        "memorizan"
+      ],
+      "perfecto": [
+        "he memorizado",
+        "has memorizado",
+        "ha memorizado",
+        "hemos memorizado",
+        "habéis memorizado",
+        "han memorizado"
+      ],
+      "indefinido": [
+        "memoricé",
+        "memorizaste",
+        "memorizó",
+        "memorizamos",
+        "memorizasteis",
+        "memorizaron"
+      ],
+      "futuro": [
+        "voy a memorizar",
+        "vas a memorizar",
+        "va a memorizar",
+        "vamos a memorizar",
+        "vais a memorizar",
+        "van a memorizar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "calificar",
+    "en": "to grade / to mark",
+    "zh": "评分",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "califico",
+        "calificas",
+        "califica",
+        "calificamos",
+        "calificáis",
+        "califican"
+      ],
+      "perfecto": [
+        "he calificado",
+        "has calificado",
+        "ha calificado",
+        "hemos calificado",
+        "habéis calificado",
+        "han calificado"
+      ],
+      "indefinido": [
+        "califiqué",
+        "calificaste",
+        "calificó",
+        "calificamos",
+        "calificasteis",
+        "calificaron"
+      ],
+      "futuro": [
+        "voy a calificar",
+        "vas a calificar",
+        "va a calificar",
+        "vamos a calificar",
+        "vais a calificar",
+        "van a calificar"
+      ]
+    },
+    "irregular": {
+      "indefinido": [
+        0
+      ]
+    }
+  },
+  {
+    "inf": "aprobar",
+    "en": "to pass (exam)",
+    "zh": "通过（考试）",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "apruebo",
+        "apruebas",
+        "aprueba",
+        "aprobamos",
+        "aprobáis",
+        "aprueban"
+      ],
+      "perfecto": [
+        "he aprobado",
+        "has aprobado",
+        "ha aprobado",
+        "hemos aprobado",
+        "habéis aprobado",
+        "han aprobado"
+      ],
+      "indefinido": [
+        "aprobé",
+        "aprobaste",
+        "aprobó",
+        "aprobamos",
+        "aprobasteis",
+        "aprobaron"
+      ],
+      "futuro": [
+        "voy a aprobar",
+        "vas a aprobar",
+        "va a aprobar",
+        "vamos a aprobar",
+        "vais a aprobar",
+        "van a aprobar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "suspender",
+    "en": "to fail (exam)",
+    "zh": "不及格",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "suspendo",
+        "suspendes",
+        "suspende",
+        "suspendemos",
+        "suspendéis",
+        "suspenden"
+      ],
+      "perfecto": [
+        "he suspendido",
+        "has suspendido",
+        "ha suspendido",
+        "hemos suspendido",
+        "habéis suspendido",
+        "han suspendido"
+      ],
+      "indefinido": [
+        "suspendí",
+        "suspendiste",
+        "suspendió",
+        "suspendimos",
+        "suspendisteis",
+        "suspendieron"
+      ],
+      "futuro": [
+        "voy a suspender",
+        "vas a suspender",
+        "va a suspender",
+        "vamos a suspender",
+        "vais a suspender",
+        "van a suspender"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "subrayar",
+    "en": "to underline / to highlight",
+    "zh": "划线/标注",
+    "cat": "学习",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "subrayo",
+        "subrayas",
+        "subraya",
+        "subrayamos",
+        "subrayáis",
+        "subrayan"
+      ],
+      "perfecto": [
+        "he subrayado",
+        "has subrayado",
+        "ha subrayado",
+        "hemos subrayado",
+        "habéis subrayado",
+        "han subrayado"
+      ],
+      "indefinido": [
+        "subrayé",
+        "subrayaste",
+        "subrayó",
+        "subrayamos",
+        "subrayasteis",
+        "subrayaron"
+      ],
+      "futuro": [
+        "voy a subrayar",
+        "vas a subrayar",
+        "va a subrayar",
+        "vamos a subrayar",
+        "vais a subrayar",
+        "van a subrayar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "doblar",
+    "en": "to turn (direction)",
+    "zh": "转弯",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "doblo",
+        "doblas",
+        "dobla",
+        "doblamos",
+        "dobláis",
+        "doblan"
+      ],
+      "perfecto": [
+        "he doblado",
+        "has doblado",
+        "ha doblado",
+        "hemos doblado",
+        "habéis doblado",
+        "han doblado"
+      ],
+      "indefinido": [
+        "doblé",
+        "doblaste",
+        "dobló",
+        "doblamos",
+        "doblasteis",
+        "doblaron"
+      ],
+      "futuro": [
+        "voy a doblar",
+        "vas a doblar",
+        "va a doblar",
+        "vamos a doblar",
+        "vais a doblar",
+        "van a doblar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "continuar",
+    "en": "to continue / to go straight",
+    "zh": "继续/直走",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "continúo",
+        "continúas",
+        "continúa",
+        "continuamos",
+        "continuáis",
+        "continúan"
+      ],
+      "perfecto": [
+        "he continuado",
+        "has continuado",
+        "ha continuado",
+        "hemos continuado",
+        "habéis continuado",
+        "han continuado"
+      ],
+      "indefinido": [
+        "continué",
+        "continuaste",
+        "continuó",
+        "continuamos",
+        "continuasteis",
+        "continuaron"
+      ],
+      "futuro": [
+        "voy a continuar",
+        "vas a continuar",
+        "va a continuar",
+        "vamos a continuar",
+        "vais a continuar",
+        "van a continuar"
+      ]
+    },
+    "irregular": {
+      "presente": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "inf": "subir",
+    "en": "to go up / to get on",
+    "zh": "上去/上车",
+    "cat": "移动/交通",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "subo",
+        "subes",
+        "sube",
+        "subimos",
+        "subís",
+        "suben"
+      ],
+      "perfecto": [
+        "he subido",
+        "has subido",
+        "ha subido",
+        "hemos subido",
+        "habéis subido",
+        "han subido"
+      ],
+      "indefinido": [
+        "subí",
+        "subiste",
+        "subió",
+        "subimos",
+        "subisteis",
+        "subieron"
+      ],
+      "futuro": [
+        "voy a subir",
+        "vas a subir",
+        "va a subir",
+        "vamos a subir",
+        "vais a subir",
+        "van a subir"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "bajar",
+    "en": "to go down / to get off",
+    "zh": "下去/下车",
+    "cat": "移动/交通",
+    "level": "A1",
+    "forms": {
+      "presente": [
+        "bajo",
+        "bajas",
+        "baja",
+        "bajamos",
+        "bajáis",
+        "bajan"
+      ],
+      "perfecto": [
+        "he bajado",
+        "has bajado",
+        "ha bajado",
+        "hemos bajado",
+        "habéis bajado",
+        "han bajado"
+      ],
+      "indefinido": [
+        "bajé",
+        "bajaste",
+        "bajó",
+        "bajamos",
+        "bajasteis",
+        "bajaron"
+      ],
+      "futuro": [
+        "voy a bajar",
+        "vas a bajar",
+        "va a bajar",
+        "vamos a bajar",
+        "vais a bajar",
+        "van a bajar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "reservar",
+    "en": "to book / to reserve",
+    "zh": "预订",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "presente": [
+        "reservo",
+        "reservas",
+        "reserva",
+        "reservamos",
+        "reserváis",
+        "reservan"
+      ],
+      "perfecto": [
+        "he reservado",
+        "has reservado",
+        "ha reservado",
+        "hemos reservado",
+        "habéis reservado",
+        "han reservado"
+      ],
+      "indefinido": [
+        "reservé",
+        "reservaste",
+        "reservó",
+        "reservamos",
+        "reservasteis",
+        "reservaron"
+      ],
+      "futuro": [
+        "voy a reservar",
+        "vas a reservar",
+        "va a reservar",
+        "vamos a reservar",
+        "vais a reservar",
+        "van a reservar"
+      ]
+    },
+    "irregular": {}
+  },
+  {
+    "inf": "perderse",
+    "en": "to get lost",
+    "zh": "迷路",
+    "cat": "移动/交通",
+    "level": "A2",
+    "forms": {
+      "reflexivo": [
+        "me pierdo",
+        "te pierdes",
+        "se pierde",
+        "nos perdemos",
+        "os perdéis",
+        "se pierden"
+      ],
+      "perfecto": [
+        "me he perdido",
+        "te has perdido",
+        "se ha perdido",
+        "nos hemos perdido",
+        "os habéis perdido",
+        "se han perdido"
+      ],
+      "indefinido": [
+        "me perdí",
+        "te perdiste",
+        "se perdió",
+        "nos perdimos",
+        "os perdisteis",
+        "se perdieron"
+      ],
+      "futuro": [
+        "voy a perderme",
+        "vas a perderte",
+        "va a perderse",
+        "vamos a perdernos",
+        "vais a perderos",
+        "van a perderse"
+      ]
+    },
+    "irregular": {
+      "reflexivo": [
+        0,
+        1,
+        2,
+        5
+      ]
+    }
+  }
+]
