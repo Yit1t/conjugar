@@ -1,0 +1,10 @@
+{
+  "name": "Conjugar",
+  "short_name": "Conjugar",
+  "description": "Spanish verb conjugation practice — A1/A2",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F5F2",
+  "theme_color": "#2D5016",
+  "icons": []
+}
