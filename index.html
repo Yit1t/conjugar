@@ -603,6 +603,113 @@
     border-color: var(--accent);
     color: white;
   }
+
+  /* ======= VOCAB PAGE ======= */
+  #page-vocab {
+    padding: 24px 16px;
+    align-items: center;
+  }
+  .vocab-container {
+    max-width: 860px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .vocab-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .vocab-filter-bar {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .vocab-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .vocab-group-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 8px 4px 4px;
+    border-bottom: 1px solid var(--border);
+    margin-top: 8px;
+  }
+  .vocab-item {
+    display: flex;
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 16px;
+    gap: 14px;
+    transition: var(--transition);
+  }
+  .vocab-item.mastered {
+    opacity: 0.45;
+    background: var(--bg);
+  }
+  .vocab-item.mastered .vocab-inf {
+    text-decoration: line-through;
+    color: var(--text-muted);
+  }
+  .vocab-inf {
+    font-family: 'DM Serif Display', serif;
+    font-size: 17px;
+    color: var(--text);
+    min-width: 110px;
+    flex-shrink: 0;
+  }
+  .vocab-meaning {
+    font-size: 13px;
+    color: var(--text-muted);
+    flex: 1;
+    min-width: 0;
+  }
+  .vocab-meaning-en { color: var(--text); font-weight: 500; }
+  .vocab-badges {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  .vocab-level {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 5px;
+  }
+  .vocab-mastered-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: var(--bg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    transition: var(--transition);
+    flex-shrink: 0;
+  }
+  .vocab-mastered-btn:hover {
+    border-color: var(--accent);
+    background: var(--accent-light);
+  }
+  .vocab-mastered-btn.is-mastered {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: white;
+  }
 </style>
 </head>
 <body>
@@ -611,6 +718,7 @@
   <div class="nav-logo">conjugar</div>
   <div class="nav-tabs">
     <button class="nav-tab active" id="nav-practice" onclick="showPage('practice')">Practice</button>
+    <button class="nav-tab" id="nav-vocab" onclick="showPage('vocab')">Vocab</button>
     <button class="nav-tab" id="nav-reference" onclick="showPage('reference')">Grammar</button>
     <button class="nav-tab" id="nav-settings" onclick="showPage('settings')">Settings</button>
   </div>
@@ -654,6 +762,26 @@
     <button class="nav-arrow-btn" onclick="nextCard()" title="下一个">→</button>
   </div>
 
+</div>
+
+<!-- ====== VOCAB PAGE ====== -->
+<div id="page-vocab" class="page">
+  <div class="vocab-container">
+    <div class="vocab-header-row">
+      <div>
+        <div class="ref-header" id="vocab-title">词库</div>
+        <div class="ref-subtitle" id="vocab-subtitle">标记已掌握的动词，练习时自动跳过</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-shrink:0">
+        <span id="vocab-count" style="font-size:13px;color:var(--text-muted)"></span>
+        <button onclick="clearAllMastered()" id="vocab-clear-btn" style="font-size:12px;color:var(--text-muted);background:none;border:1px solid var(--border);border-radius:8px;padding:6px 12px;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap">全部重置</button>
+      </div>
+    </div>
+
+    <div class="vocab-filter-bar" id="vocabFilterBar"></div>
+
+    <div class="vocab-list" id="vocabList"></div>
+  </div>
 </div>
 
 <!-- ====== REFERENCE PAGE ====== -->
@@ -818,11 +946,12 @@ let state = {
   activePronouns: [0,1,2,3,4,5],
   verbLevels: ['A1', 'A2'],
   irregFilter: 'all',
-  autoSpeak: true,
+  autoSpeak: false,
   speakAnswer: false,
   queue: [],
   idx: 0,
   revealed: false,
+  mastered: new Set(), // verb infinitivos mastered by user
 };
 
 // ============================================================
@@ -1011,6 +1140,110 @@ function buildReference() {
 // ============================================================
 const LS_SETTINGS = 'conjugar_settings';
 const LS_PROGRESS = 'conjugar_progress';
+const LS_MASTERED = 'conjugar_mastered';
+
+function saveMastered() {
+  localStorage.setItem(LS_MASTERED, JSON.stringify([...state.mastered]));
+}
+
+function loadMastered() {
+  try {
+    const arr = JSON.parse(localStorage.getItem(LS_MASTERED)) || [];
+    state.mastered = new Set(arr);
+  } catch(e) { state.mastered = new Set(); }
+}
+
+function toggleMastered(inf) {
+  if (state.mastered.has(inf)) state.mastered.delete(inf);
+  else state.mastered.add(inf);
+  saveMastered();
+  buildQueue();
+  renderCard();
+  renderVocabList();
+}
+
+function clearAllMastered() {
+  state.mastered = new Set();
+  saveMastered();
+  buildQueue();
+  renderCard();
+  renderVocabList();
+}
+
+// ============================================================
+// VOCAB PAGE
+// ============================================================
+let vocabFilter = '全部';
+
+function buildVocabFilterBar() {
+  const bar = document.getElementById('vocabFilterBar');
+  if (!bar) return;
+  const cats = ['全部', ...new Set(VERBS.map(v => v.cat))];
+  bar.innerHTML = cats.map(c =>
+    `<button class="cat-btn${c === vocabFilter ? ' active' : ''}" onclick="setVocabFilter('${c}')">${
+      currentLang === 'en' ? catZhToEn(c) : c
+    }</button>`
+  ).join('');
+}
+
+function catZhToEn(zh) {
+  const tr = TRANSLATIONS['en'].cats;
+  const zh_cats = TRANSLATIONS['zh'].cats;
+  const idx = zh_cats.indexOf(zh);
+  return idx >= 0 ? tr[idx] : zh;
+}
+
+function setVocabFilter(cat) {
+  vocabFilter = cat;
+  buildVocabFilterBar();
+  renderVocabList();
+}
+
+function renderVocabList() {
+  const el = document.getElementById('vocabList');
+  const countEl = document.getElementById('vocab-count');
+  if (!el) return;
+
+  let verbs = vocabFilter === '全部' ? VERBS : VERBS.filter(v => v.cat === vocabFilter);
+
+  const masteredCount = [...state.mastered].filter(inf => VERBS.some(v => v.inf === inf)).length;
+  if (countEl) countEl.textContent = `${masteredCount} / ${VERBS.length} 已掌握`;
+
+  // Group by category
+  const groups = {};
+  verbs.forEach(v => {
+    if (!groups[v.cat]) groups[v.cat] = [];
+    groups[v.cat].push(v);
+  });
+
+  let html = '';
+  Object.entries(groups).forEach(([cat, list]) => {
+    if (vocabFilter === '全部') {
+      const label = currentLang === 'en' ? catZhToEn(cat) : cat;
+      html += `<div class="vocab-group-title">${label}</div>`;
+    }
+    list.forEach(v => {
+      const isMastered = state.mastered.has(v.inf);
+      const levelColor = v.level === 'A1' ? 'var(--a1)' : 'var(--a2)';
+      const levelBg = v.level === 'A1' ? 'var(--accent-light)' : 'var(--a2-bg)';
+      const meaning = currentLang === 'en' ? v.en : `${v.en} · ${v.zh}`;
+      html += `
+        <div class="vocab-item${isMastered ? ' mastered' : ''}" id="vocab-${v.inf.replace(/\s/g,'_')}">
+          <div class="vocab-inf">${v.inf}</div>
+          <div class="vocab-meaning">${meaning}</div>
+          <div class="vocab-badges">
+            <span class="vocab-level" style="color:${levelColor};background:${levelBg}">${v.level}</span>
+            <button class="vocab-mastered-btn${isMastered ? ' is-mastered' : ''}"
+              onclick="toggleMastered('${v.inf}')"
+              title="${isMastered ? '取消掌握' : '标记已掌握'}">
+              ${isMastered ? '✓' : ''}
+            </button>
+          </div>
+        </div>`;
+    });
+  });
+  el.innerHTML = html;
+}
 
 function saveSettings() {
   const s = {
@@ -1197,6 +1430,7 @@ function togglePronoun(idx, checked) {
 function buildQueue() {
   let verbs = state.category === '全部' ? VERBS : VERBS.filter(v => v.cat === state.category);
   verbs = verbs.filter(v => state.verbLevels.includes(v.level));
+  verbs = verbs.filter(v => !state.mastered.has(v.inf)); // skip mastered
 
   const items = [];
   verbs.forEach(v => {
@@ -1408,13 +1642,14 @@ function showPage(id) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.getElementById('page-' + id).classList.add('active');
   document.querySelectorAll('.nav-tab').forEach((tab, i) => {
-    tab.classList.toggle('active', ['practice','reference','settings'][i] === id);
+    tab.classList.toggle('active', ['practice','vocab','reference','settings'][i] === id);
   });
   if (id === 'practice' && state.autoSpeak && state.queue.length > 0) {
     const item = state.queue[state.idx % state.queue.length];
     setTimeout(() => speakText(item.verb.inf), 150);
   }
   if (id === 'settings') renderProgressStats();
+  if (id === 'vocab') { buildVocabFilterBar(); renderVocabList(); }
 }
 
 // ============================================================
@@ -1484,6 +1719,10 @@ const TRANSLATIONS = {
     progress_streak: '连续天数',
     progress_cards: '张卡片',
     progress_days: '天',
+    nav_vocab: '词库',
+    vocab_title: '词库',
+    vocab_subtitle: '标记已掌握的动词，练习时自动跳过',
+    vocab_clear: '全部重置',
   },
   en: {
     nav_practice: 'Practice',
@@ -1535,6 +1774,10 @@ const TRANSLATIONS = {
     progress_streak: 'Streak',
     progress_cards: 'cards',
     progress_days: 'days',
+    nav_vocab: 'Vocab',
+    vocab_title: 'Verb Library',
+    vocab_subtitle: 'Mark verbs you know — they\'ll be skipped in practice',
+    vocab_clear: 'Reset all',
   },
 };
 
@@ -1561,6 +1804,7 @@ function setLang(lang) {
 
   // Update nav tabs
   document.getElementById('nav-practice').textContent = t('nav_practice');
+  document.getElementById('nav-vocab').textContent = t('nav_vocab');
   document.getElementById('nav-reference').textContent = t('nav_reference');
   document.getElementById('nav-settings').textContent = t('nav_settings');
 
@@ -1573,11 +1817,20 @@ function setLang(lang) {
   // Re-render card (updates meaning display language)
   renderCard();
   renderProgressStats();
+  // Update vocab page text and rebuild list
+  const vt = document.getElementById('vocab-title');
+  const vs = document.getElementById('vocab-subtitle');
+  const vc = document.getElementById('vocab-clear-btn');
+  if (vt) vt.textContent = t('vocab_title');
+  if (vs) vs.textContent = t('vocab_subtitle');
+  if (vc) vc.textContent = t('vocab_clear');
+  if (currentPage === 'vocab') { buildVocabFilterBar(); renderVocabList(); }
   saveSettings();
 }
 
 function init() {
-  loadSettings(); // restore state + dark mode before building UI
+  loadSettings();
+  loadMastered();
   fetch('verbs.json')
     .then(r => r.json())
     .then(data => {
