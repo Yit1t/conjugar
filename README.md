@@ -52,3 +52,7 @@ conjugar/
 └── README.md
 ```
 
+## Changelog
+
+### v0.2 — 2025-02
+- Added vocab page with mastered verb tracking

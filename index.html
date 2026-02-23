@@ -1207,7 +1207,7 @@ function renderVocabList() {
   let verbs = vocabFilter === '全部' ? VERBS : VERBS.filter(v => v.cat === vocabFilter);
 
   const masteredCount = [...state.mastered].filter(inf => VERBS.some(v => v.inf === inf)).length;
-  if (countEl) countEl.textContent = `${masteredCount} / ${VERBS.length} 已掌握`;
+  if (countEl) countEl.textContent = `${masteredCount} / ${VERBS.length} ${t('vocab_mastered_label')}`;
 
   // Group by category
   const groups = {};
@@ -1228,14 +1228,15 @@ function renderVocabList() {
       const levelBg = v.level === 'A1' ? 'var(--accent-light)' : 'var(--a2-bg)';
       const meaning = currentLang === 'en' ? v.en : `${v.en} · ${v.zh}`;
       html += `
-        <div class="vocab-item${isMastered ? ' mastered' : ''}" id="vocab-${v.inf.replace(/\s/g,'_')}">
+        <div class="vocab-item${isMastered ? ' mastered' : ''}" id="vocab-${v.inf.replace(/\s/g,'_')}"
+             onclick="openConjModal('${v.inf}')">
           <div class="vocab-inf">${v.inf}</div>
           <div class="vocab-meaning">${meaning}</div>
           <div class="vocab-badges">
             <span class="vocab-level" style="color:${levelColor};background:${levelBg}">${v.level}</span>
             <button class="vocab-mastered-btn${isMastered ? ' is-mastered' : ''}"
-              onclick="toggleMastered('${v.inf}')"
-              title="${isMastered ? '取消掌握' : '标记已掌握'}">
+              onclick="event.stopPropagation(); toggleMastered('${v.inf}')"
+              title="${isMastered ? t('vocab_unmaster') : t('vocab_master')}">
               ${isMastered ? '✓' : ''}
             </button>
           </div>
@@ -1723,6 +1724,9 @@ const TRANSLATIONS = {
     vocab_title: '词库',
     vocab_subtitle: '标记已掌握的动词，练习时自动跳过',
     vocab_clear: '全部重置',
+    vocab_mastered_label: '已掌握',
+    vocab_master: '标记已掌握',
+    vocab_unmaster: '取消掌握',
   },
   en: {
     nav_practice: 'Practice',
@@ -1778,6 +1782,9 @@ const TRANSLATIONS = {
     vocab_title: 'Verb Library',
     vocab_subtitle: 'Mark verbs you know — they\'ll be skipped in practice',
     vocab_clear: 'Reset all',
+    vocab_mastered_label: 'mastered',
+    vocab_master: 'Mark as known',
+    vocab_unmaster: 'Unmark',
   },
 };
 
@@ -1849,6 +1856,82 @@ function init() {
 }
 
 init();
+</script>
+
+<!-- ====== CONJUGATION MODAL ====== -->
+<div id="conjModal" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.45);backdrop-filter:blur(4px);align-items:center;justify-content:center;padding:16px" onclick="closeConjModal()">
+  <div style="background:var(--surface);border-radius:20px;width:100%;max-width:540px;max-height:85vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,0.2)" onclick="event.stopPropagation()">
+    <div style="padding:20px 20px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
+      <div style="min-width:0">
+        <div id="modal-inf" style="font-family:'DM Serif Display',serif;font-size:28px;color:var(--text)"></div>
+        <div id="modal-meaning" style="font-size:14px;color:var(--text-muted);margin-top:4px"></div>
+      </div>
+      <button onclick="closeConjModal()" style="font-size:20px;background:none;border:none;cursor:pointer;color:var(--text-muted);padding:4px 0;line-height:1;flex-shrink:0">✕</button>
+    </div>
+    <div id="modal-body" style="padding:16px 20px 24px"></div>
+  </div>
+</div>
+
+<script>
+const TENSE_DISPLAY_NAMES = {
+  presente:   { zh: '现在时',         en: 'Present' },
+  perfecto:   { zh: '近过去时',       en: 'Perfect' },
+  indefinido: { zh: '简单过去时',     en: 'Preterite' },
+  futuro:     { zh: '近将来',         en: 'Near Future' },
+  reflexivo:  { zh: '反身动词现在时', en: 'Reflexive' },
+  imperativo: { zh: '命令式',         en: 'Imperative' },
+};
+
+function openConjModal(inf) {
+  const verb = VERBS.find(v => v.inf === inf);
+  if (!verb) return;
+
+  document.getElementById('modal-inf').textContent = inf;
+  document.getElementById('modal-meaning').textContent =
+    currentLang === 'en' ? verb.en : `${verb.en} · ${verb.zh}`;
+
+  const pronounLabels = ['yo','tú','él/ella','nosotros','vosotros','ellos/ellas'];
+  const impLabels     = ['(yo —)','tú','usted','nosotros','vosotros','ustedes'];
+
+  let html = '';
+  Object.entries(verb.forms).forEach(([tense, forms]) => {
+    const nameObj = TENSE_DISPLAY_NAMES[tense] || { zh: tense, en: tense };
+    const name = currentLang === 'en' ? nameObj.en : nameObj.zh;
+    const labels = tense === 'imperativo' ? impLabels : pronounLabels;
+    const irregIdx = verb.irregular[tense] || [];
+
+    html += `<div style="margin-bottom:16px">
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.7px;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px">${name}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 12px">`;
+
+    forms.forEach((form, i) => {
+      if (!form || form === '—') return;
+      const isIrreg = irregIdx.includes(i);
+      html += `<div style="display:flex;justify-content:space-between;align-items:baseline;padding:5px 8px;border-radius:8px;background:var(--bg)">
+        <span style="font-size:12px;color:var(--text-muted);flex-shrink:0;margin-right:8px">${labels[i]}</span>
+        <span style="font-size:15px;font-weight:500;color:${isIrreg ? 'var(--irreg)' : 'var(--text)'};text-align:right">${form}</span>
+      </div>`;
+    });
+
+    html += `</div></div>`;
+  });
+
+  document.getElementById('modal-body').innerHTML = html;
+
+  const modal = document.getElementById('conjModal');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeConjModal() {
+  document.getElementById('conjModal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+// Close with Escape key
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeConjModal();
+});
 </script>
 </body>
 </html>
