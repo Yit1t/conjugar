@@ -54,5 +54,5 @@ conjugar/
 
 ## Changelog
 
-### v0.2 — 2025-02
+### v0.2 — 2025-02-23
 - Added vocab page with mastered verb tracking
